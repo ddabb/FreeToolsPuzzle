@@ -1,0 +1,164 @@
+{
+  "life": {
+    "id": "life",
+    "name": "人生感悟",
+    "icon": "🌟",
+    "description": "关于人生的思考和感悟"
+  },
+  "love": {
+    "id": "love",
+    "name": "爱情",
+    "icon": "❤️",
+    "description": "关于爱情的表达"
+  },
+  "friendship": {
+    "id": "friendship",
+    "name": "友情",
+    "icon": "🤝",
+    "description": "关于友情的表达"
+  },
+  "family": {
+    "id": "family",
+    "name": "亲情",
+    "icon": "👨‍👩‍👧‍👦",
+    "description": "关于亲情的表达"
+  },
+  "travel": {
+    "id": "travel",
+    "name": "旅行",
+    "icon": "✈️",
+    "description": "关于旅行的表达"
+  },
+  "food": {
+    "id": "food",
+    "name": "美食",
+    "icon": "🍔",
+    "description": "关于美食的表达"
+  },
+  "work": {
+    "id": "work",
+    "name": "工作",
+    "icon": "💼",
+    "description": "关于工作的表达"
+  },
+  "life-style": {
+    "id": "life-style",
+    "name": "生活方式",
+    "icon": "🏠",
+    "description": "关于生活方式的表达"
+  },
+  "spring-festival": {
+    "id": "spring-festival",
+    "name": "春节",
+    "icon": "🎊",
+    "description": "关于春节的表达"
+  },
+  "birthday": {
+    "id": "birthday",
+    "name": "生日",
+    "icon": "🎂",
+    "description": "关于生日的表达"
+  },
+  "national-day": {
+    "id": "national-day",
+    "name": "国庆节",
+    "icon": "🇨🇳",
+    "description": "关于国庆节的表达"
+  },
+  "teacher-day": {
+    "id": "teacher-day",
+    "name": "教师节",
+    "icon": "👩‍🏫",
+    "description": "关于教师节的表达"
+  },
+  "new-year": {
+    "id": "new-year",
+    "name": "元旦",
+    "icon": "🎆",
+    "description": "关于元旦的表达"
+  },
+  "labor-day": {
+    "id": "labor-day",
+    "name": "劳动节",
+    "icon": "🛠️",
+    "description": "关于劳动节的表达"
+  },
+  "children-day": {
+    "id": "children-day",
+    "name": "儿童节",
+    "icon": "🧒",
+    "description": "关于儿童节的表达"
+  },
+  "mid-autumn": {
+    "id": "mid-autumn",
+    "name": "中秋节",
+    "icon": "🌙",
+    "description": "关于中秋节的表达"
+  },
+  "study": {
+    "id": "study",
+    "name": "学习",
+    "icon": "📚",
+    "description": "关于学习的表达"
+  },
+  "nurses-day": {
+    "id": "nurses-day",
+    "name": "护士节",
+    "icon": "👩‍⚕️",
+    "description": "关于护士节的表达"
+  },
+  "programmer-day": {
+    "id": "programmer-day",
+    "name": "程序员节",
+    "icon": "💻",
+    "description": "关于程序员节的表达"
+  },
+  "laser": {
+    "id": "laser",
+    "name": "激光",
+    "icon": "🔦",
+    "description": "关于激光的表达"
+  },
+  "poison-soup": {
+    "id": "poison-soup",
+    "name": "毒鸡汤",
+    "icon": "🍵",
+    "description": "每日毒鸡汤，扎心负能量"
+  },
+  "answer-book": {
+    "id": "answer-book",
+    "name": "答案之书",
+    "icon": "🔮",
+    "description": "Magic 8 Ball 答案之书"
+  },
+  "cold-jokes": {
+    "id": "cold-jokes",
+    "name": "冷笑话",
+    "icon": "❄️",
+    "description": "冷到骨子里的幽默笑话"
+  },
+  "normal-jokes": {
+    "id": "normal-jokes",
+    "name": "普通笑话",
+    "icon": "😄",
+    "description": "日常生活中的幽默段子"
+  },
+  "romantic": {
+    "id": "romantic",
+    "name": "浪漫情话",
+    "icon": "💕",
+    "description": "甜蜜浪漫的表白情话"
+  },
+  "cheesy": {
+    "id": "cheesy",
+    "name": "土味情话",
+    "icon": "🌽",
+    "description": "土到掉渣但很甜的情话"
+  },
+  "inspirational": {
+    "id": "inspirational",
+    "name": "心灵鸡汤",
+    "icon": "🌟",
+    "description": "温暖人心的励志语录"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "total": 180,
+  "sizes": [
+    5,
+    6,
+    7
+  ],
+  "difficulties": [
+    "easy",
+    "medium",
+    "hard"
+  ],
+  "countPerConfig": 20,
+  "generatedAt": "2026-04-24T00:14:05.810Z",
+  "files": [
+    "5-easy.json",
+    "5-hard.json",
+    "5-medium.json",
+    "6-easy.json",
+    "6-hard.json",
+    "6-medium.json",
+    "7-easy.json",
+    "7-hard.json",
+    "7-medium.json",
+    "all-puzzles.json",
+    "index.json"
+  ],
+  "stats": {
+    "total": 180,
+    "bySize": {
+      "5": 60,
+      "6": 60,
+      "7": 60
+    },
+    "byDifficulty": {
+      "1": 60,
+      "2": 60,
+      "3": 60
+    }
+  }
+}

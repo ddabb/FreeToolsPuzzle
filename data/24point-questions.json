@@ -1,0 +1,94 @@
+{
+  "version": "1.0.0",
+  "updateDate": "2026-03-28",
+  "description": "24点预设题目集",
+  "questions": [
+    {
+      "numbers": [1, 2, 3, 4],
+      "difficulty": "easy",
+      "solutions": [
+        { "expression": "(1+2+3)×4", "description": "先相加得到6，再乘以4" },
+        { "expression": "(1×2×3)×4", "description": "连乘得到24" }
+      ]
+    },
+    {
+      "numbers": [2, 3, 4, 6],
+      "difficulty": "easy",
+      "solutions": [
+        { "expression": "6×4×(3-2)", "description": "利用差值简化计算" },
+        { "expression": "(6-3)×2×4", "description": "先做减法得到3" }
+      ]
+    },
+    {
+      "numbers": [1, 5, 5, 5],
+      "difficulty": "medium",
+      "solutions": [
+        { "expression": "(5-1÷5)×5", "description": "分数运算的经典例子" }
+      ]
+    },
+    {
+      "numbers": [1, 3, 5, 7],
+      "difficulty": "medium",
+      "solutions": [
+        { "expression": "(7-3)×(1+5)", "description": "分组计算得到4和6" }
+      ]
+    },
+    {
+      "numbers": [2, 3, 5, 7],
+      "difficulty": "medium",
+      "solutions": [
+        { "expression": "(7-5+2)×(3+5)", "description": "巧妙的分组运算" }
+      ]
+    },
+    {
+      "numbers": [3, 3, 8, 8],
+      "difficulty": "hard",
+      "solutions": [
+        { "expression": "8÷(3-8÷3)", "description": "经典的分式解法" }
+      ]
+    },
+    {
+      "numbers": [4, 4, 10, 10],
+      "difficulty": "hard",
+      "solutions": [
+        { "expression": "(10×10-4)÷4", "description": "利用平方差公式思路" }
+      ]
+    },
+    {
+      "numbers": [6, 6, 8, 8],
+      "difficulty": "hard",
+      "solutions": [
+        { "expression": "(6÷(8-6))×8", "description": "先做减法，再除法，最后乘法" },
+        { "expression": "(8÷(8-6))×6", "description": "另一种顺序" }
+      ]
+    },
+    {
+      "numbers": [1, 4, 5, 6],
+      "difficulty": "hard",
+      "solutions": [
+        { "expression": "4÷(1-5÷6)", "description": "分数思维" }
+      ]
+    },
+    {
+      "numbers": [1, 6, 6, 8],
+      "difficulty": "expert",
+      "solutions": [
+        { "expression": "(6÷(1+6÷8))×8", "description": "复杂的分数运算" }
+      ]
+    },
+    {
+      "numbers": [3, 3, 7, 7],
+      "difficulty": "expert",
+      "solutions": [
+        { "expression": "(3+3÷7)×7", "description": "带分数的巧妙运用" }
+      ]
+    },
+    {
+      "numbers": [8, 3, 8, 3],
+      "difficulty": "expert",
+      "solutions": [
+        { "expression": "8÷(3-8÷3)", "description": "经典难题" }
+      ]
+    }
+  ]
+}

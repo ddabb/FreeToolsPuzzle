@@ -1,0 +1,340 @@
+{
+  "changelog": [
+    {
+      "version": "2.0.24",
+      "date": "2026-04-08",
+      "type": "feature",
+      "title": "集成休闲娱乐工具",
+      "changes": [
+        "新增每日毒鸡汤",
+        "新增电子戒烟",
+        "新增电子木鱼",
+        "新增中秋博饼",
+        "新增答案之书"
+      ]
+    },
+    {
+      "version": "2.0.21",
+      "date": "2026-04-07",
+      "type": "feature",
+      "title": "成语查询",
+      "changes": [
+        "成语查询支持逆向查询"
+      ]
+    },
+    {
+      "version": "2.0.20",
+      "date": "2026-04-06",
+      "type": "feature",
+      "title": "数独求解器",
+      "changes": [
+        "数独生成求解算法改成dancelink算法，优化性能"
+      ]
+    },
+    {
+      "version": "2.0.19",
+      "date": "2026-04-06",
+      "type": "feature",
+      "title": "亲戚计算器",
+      "changes": [
+        "修复亲戚计算器在已知性别的情况下，称谓错误的问题",
+        "新增导出功能，支持查看亲戚关系配置表"
+      ]
+    },
+    {
+      "version": "2.0.18",
+      "date": "2026-04-04",
+      "type": "feature",
+      "title": "Excel导出功能",
+      "changes": [
+        "修复excel导出内容没有样式的问题",
+        "每个导出功能增加用户确认动作，优化用户体验"
+      ]
+    },
+    {
+      "version": "2.0.17",
+      "date": "2026-04-04",
+      "type": "feature",
+      "title": "集成Excel导出功能",
+      "changes": [
+        "集成Excel导出功能"
+      ]
+    },
+    {
+      "version": "2.0.16",
+      "date": "2026-04-03",
+      "type": "feature",
+      "title": "成语模块",
+      "changes": [
+        "新增成语查询",
+        "新增成语对战",
+        "新增成语链"
+      ]
+    },
+    {
+      "version": "2.0.15",
+      "date": "2026-03-30",
+      "type": "feature",
+      "title": "知识管理改成寻识",
+      "changes": [
+        "将 随身百科 包提升至主包，改名寻识，加入 tabbar"
+      ]
+    },
+    {
+      "version": "2.0.14",
+      "date": "2026-03-30",
+      "type": "feature",
+      "title": "集成知识管理功能",
+      "changes": [
+        "新增知识列表页面",
+        "新增分类列表页面",
+        "新增标签列表页面",
+        "新增知识详情页面"
+      ]
+    },
+    {
+      "version": "2.0.13",
+      "date": "2026-03-29",
+      "type": "feature",
+      "title": "调整tarbar内容",
+      "changes": [
+        "tarbar新增日志页签"
+      ]
+    },
+    {
+      "version": "2.0.12",
+      "date": "2026-03-27",
+      "type": "feature",
+      "title": "cdn数据源管理",
+      "changes": [
+        "优化CDN的存储位置",
+        "补充优化关于页信息"
+      ]
+    },
+    {
+      "version": "2.0.11",
+      "date": "2026-03-27",
+      "type": "feature",
+      "title": "集成日志查询和质数计算",
+      "changes": [
+        "版本日志更新可视化",
+        "新增质数计算功能"
+      ]
+    },
+    {
+      "version": "2.0.10",
+      "date": "2026-03-26",
+      "type": "feature",
+      "title": "画布优化",
+      "changes": [
+        "所有画布都改成type=2d"
+      ]
+    },
+    {
+      "version": "2.0.9",
+      "date": "2026-03-23",
+      "type": "feature",
+      "title": "文案生图",
+      "changes": [
+        "优化文案生图的绘制算法",
+        "支持自定义出处",
+        "支持选择二维码"
+      ]
+    },
+    {
+      "version": "2.0.8",
+      "date": "2026-03-23",
+      "type": "feature",
+      "title": "一笔画求解",
+      "changes": [
+        "新增一笔画求解界面"
+      ]
+    },
+    {
+      "version": "2.0.7",
+      "date": "2026-03-23",
+      "type": "feature",
+      "title": "数独求解器",
+      "changes": [
+        "新增数独求解器"
+      ]
+    },
+    {
+      "version": "2.0.6",
+      "date": "2026-03-21",
+      "type": "feature",
+      "title": "优化菜单名",
+      "changes": [
+        "优化菜单名，降低理解成本"
+      ]
+    },
+    {
+      "version": "2.0.5",
+      "date": "2026-03-21",
+      "type": "feature",
+      "title": "样式优化",
+      "changes": [
+        "优化页面配色和布局"
+      ]
+    },
+    {
+      "version": "2.0.4",
+      "date": "2026-03-18",
+      "type": "feature",
+      "title": "文案查询",
+      "changes": [
+        "文案数据源改成CDN源"
+      ]
+    },
+    {
+      "version": "2.0.3",
+      "date": "2026-03-18",
+      "type": "feature",
+      "title": "万年历",
+      "changes": [
+        "万年历页面优化",
+        "增加生肖内链",
+        "增加星座内链"
+      ]
+    },
+    {
+      "version": "2.0.2",
+      "date": "2026-03-18",
+      "type": "feature",
+      "title": "颜色取数器",
+      "changes": [
+        "新增颜色取数器功能"
+      ]
+    },
+    {
+      "version": "2.0.1",
+      "date": "2026-03-18",
+      "type": "feature",
+      "title": "文案生图功能增强",
+      "changes": [
+        "新增实时预览功能",
+        "支持预览开关控制",
+        "优化图片生成防抖"
+      ]
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-03-17",
+      "type": "feature",
+      "title": "工具函数重构",
+      "changes": [
+        "新增 utils/toast.js 平台兼容吐司工具",
+        "新增 utils/modal.js 平台兼容模态框",
+        "新增 utils/storage.js 平台兼容存储工具",
+        "统一工具函数导出到 utils/index.js"
+      ]
+    },
+    {
+      "version": "1.0.9",
+      "date": "2026-03-17",
+      "type": "feature",
+      "title": "markdown生成图片",
+      "changes": [
+        "新增markdown生成图片功能"
+      ]
+    },
+    {
+      "version": "1.0.9",
+      "date": "2026-03-16",
+      "type": "feature",
+      "title": "质因数分解",
+      "changes": [
+        "新增质因数分解功能"
+      ]
+    },
+    {
+      "version": "1.0.8",
+      "date": "2026-03-15",
+      "type": "feature",
+      "title": "中秋博饼",
+      "changes": [
+        "新增中秋博饼功能"
+      ]
+    },
+    {
+      "version": "1.0.7",
+      "date": "2026-03-12",
+      "type": "feature",
+      "title": "亲戚计算器",
+      "changes": [
+        "增加亲戚计算器的功能"
+      ]
+    },
+    {
+      "version": "1.0.6",
+      "date": "2026-03-13",
+      "type": "feature",
+      "title": "随机选号器",
+      "changes": [
+        "集成随机选号器功能"
+      ]
+    },
+    {
+      "version": "1.0.5",
+      "date": "2026-03-12",
+      "type": "feature",
+      "title": "今天吃什么",
+      "changes": [
+        "集成今天吃什么功能"
+      ]
+    },
+    {
+      "version": "1.0.4",
+      "date": "2026-03-11",
+      "type": "feature",
+      "title": "集成退休金计算器",
+      "changes": [
+        "新增退休金计算器功能"
+      ]
+    },
+    {
+      "version": "1.0.3",
+      "date": "2026-03-11",
+      "type": "fix",
+      "title": "优化与修复",
+      "changes": [
+        "修复 Markdown 预览页面显示问题",
+        "优化首页布局",
+        "减少主包未引用警告"
+      ]
+    },
+    {
+      "version": "1.0.2",
+      "date": "2026-03-10",
+      "type": "feature",
+      "title": "人生A4纸功能",
+      "changes": [
+        "新增人生A4纸页面"
+      ]
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-03-10",
+      "type": "feature",
+      "title": "首页改版",
+      "changes": [
+        "采用点菜式左右布局",
+        "新增分类侧边栏",
+        "支持搜索功能"
+      ]
+    },
+    {
+      "version": "1.0.0",
+      "date": "2026-03-05",
+      "type": "feature",
+      "title": "初始版本发布",
+      "changes": [
+        "上线多种实用工具",
+        "支持分包加载",
+        "首次发布"
+      ]
+    }
+  ],
+  "latestVersion": "2.0.21",
+  "lastUpdate": "2026-04-07"
+}

@@ -1,0 +1,98 @@
+{
+  "a": {
+    "pyCount": 5,
+    "wordCount": 60
+  },
+  "b": {
+    "pyCount": 16,
+    "wordCount": 446
+  },
+  "c": {
+    "pyCount": 31,
+    "wordCount": 737
+  },
+  "d": {
+    "pyCount": 19,
+    "wordCount": 679
+  },
+  "e": {
+    "pyCount": 3,
+    "wordCount": 92
+  },
+  "f": {
+    "pyCount": 9,
+    "wordCount": 487
+  },
+  "g": {
+    "pyCount": 19,
+    "wordCount": 564
+  },
+  "h": {
+    "pyCount": 19,
+    "wordCount": 621
+  },
+  "j": {
+    "pyCount": 14,
+    "wordCount": 1059
+  },
+  "k": {
+    "pyCount": 16,
+    "wordCount": 199
+  },
+  "l": {
+    "pyCount": 25,
+    "wordCount": 825
+  },
+  "m": {
+    "pyCount": 18,
+    "wordCount": 539
+  },
+  "n": {
+    "pyCount": 21,
+    "wordCount": 194
+  },
+  "o": {
+    "pyCount": 1,
+    "wordCount": 3
+  },
+  "p": {
+    "pyCount": 16,
+    "wordCount": 132
+  },
+  "q": {
+    "pyCount": 14,
+    "wordCount": 539
+  },
+  "r": {
+    "pyCount": 13,
+    "wordCount": 384
+  },
+  "s": {
+    "pyCount": 31,
+    "wordCount": 1444
+  },
+  "t": {
+    "pyCount": 18,
+    "wordCount": 413
+  },
+  "w": {
+    "pyCount": 9,
+    "wordCount": 448
+  },
+  "x": {
+    "pyCount": 14,
+    "wordCount": 815
+  },
+  "y": {
+    "pyCount": 14,
+    "wordCount": 1224
+  },
+  "z": {
+    "pyCount": 34,
+    "wordCount": 1065
+  },
+  "": {
+    "pyCount": 1,
+    "wordCount": 1
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "size": 8,
+  "row": 8,
+  "col": 8,
+  "holes": [
+    25,
+    36,
+    44,
+    54
+  ],
+  "difficulty": "medium",
+  "id": 937
+}

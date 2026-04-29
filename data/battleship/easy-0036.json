@@ -1,0 +1,1 @@
+{"id":36,"difficulty":"easy","size":6,"rowClues":[2,1,0,4,1,1],"colClues":[2,1,0,4,1,1],"ships":[{"size":3,"r":3,"c":3,"horizontal":false},{"size":2,"r":3,"c":0,"horizontal":true},{"size":2,"r":0,"c":3,"horizontal":true},{"size":1,"r":3,"c":5,"horizontal":false},{"size":1,"r":1,"c":0,"horizontal":true}],"seed":3646338}

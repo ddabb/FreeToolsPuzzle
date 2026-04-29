@@ -1,0 +1,91 @@
+{
+  "version": "1.0.0",
+  "updateDate": "2026-03-28",
+  "description": "热门工具使用排行",
+  "rankings": [
+    {
+      "rank": 1,
+      "id": "sudoku-solver",
+      "name": "数独求解器",
+      "icon": "🧩",
+      "usage": 12580,
+      "growth": "+12%"
+    },
+    {
+      "rank": 2,
+      "id": "24point",
+      "name": "24点速算",
+      "icon": "🔢",
+      "usage": 9820,
+      "growth": "+8%"
+    },
+    {
+      "rank": 3,
+      "id": "qrcode",
+      "name": "二维码生成",
+      "icon": "📱",
+      "usage": 8650,
+      "growth": "+5%"
+    },
+    {
+      "rank": 4,
+      "id": "text-to-image",
+      "name": "文案生图",
+      "icon": "🖼️",
+      "usage": 7230,
+      "growth": "+15%"
+    },
+    {
+      "rank": 5,
+      "id": "sudoku-generator",
+      "name": "数独生成器",
+      "icon": "🧩",
+      "usage": 6890,
+      "growth": "+3%"
+    },
+    {
+      "rank": 6,
+      "id": "calendar",
+      "name": "日历工具",
+      "icon": "📅",
+      "usage": 5420,
+      "growth": "+2%"
+    },
+    {
+      "rank": 7,
+      "id": "random-selector",
+      "name": "随机选择器",
+      "icon": "🎲",
+      "usage": 4850,
+      "growth": "+6%"
+    },
+    {
+      "rank": 8,
+      "id": "password-generator",
+      "name": "密码生成器",
+      "icon": "🔐",
+      "usage": 4320,
+      "growth": "+4%"
+    },
+    {
+      "rank": 9,
+      "id": "timestamp-converter",
+      "name": "时间戳转换",
+      "icon": "⏰",
+      "usage": 3980,
+      "growth": "+1%"
+    },
+    {
+      "rank": 10,
+      "id": "color-converter",
+      "name": "颜色转换器",
+      "icon": "🎨",
+      "usage": 3650,
+      "growth": "+7%"
+    }
+  ],
+  "stats": {
+    "totalUsage": 67890,
+    "updateDate": "2026-03-28"
+  }
+}

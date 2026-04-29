@@ -1,0 +1,267 @@
+{
+  "version": "1.0.0",
+  "updateDate": "2026-03-28",
+  "description": "2026年节日节气数据",
+  "year": 2026,
+  "events": [
+    {
+      "date": "2026-01-01",
+      "name": "元旦",
+      "type": "festival",
+      "category": "法定节假日",
+      "holiday": true
+    },
+    {
+      "date": "2026-01-17",
+      "name": "腊八节",
+      "type": "traditional",
+      "category": "传统节日",
+      "holiday": false
+    },
+    {
+      "date": "2026-01-29",
+      "name": "春节",
+      "type": "festival",
+      "category": "法定节假日",
+      "holiday": true
+    },
+    {
+      "date": "2026-02-03",
+      "name": "立春",
+      "type": "solar_term",
+      "category": "节气",
+      "holiday": false
+    },
+    {
+      "date": "2026-02-14",
+      "name": "情人节",
+      "type": "festival",
+      "category": "国际节日",
+      "holiday": false
+    },
+    {
+      "date": "2026-02-18",
+      "name": "雨水",
+      "type": "solar_term",
+      "category": "节气",
+      "holiday": false
+    },
+    {
+      "date": "2026-03-05",
+      "name": "惊蛰",
+      "type": "solar_term",
+      "category": "节气",
+      "holiday": false
+    },
+    {
+      "date": "2026-03-08",
+      "name": "妇女节",
+      "type": "festival",
+      "category": "国际节日",
+      "holiday": false
+    },
+    {
+      "date": "2026-03-12",
+      "name": "植树节",
+      "type": "festival",
+      "category": "国际节日",
+      "holiday": false
+    },
+    {
+      "date": "2026-03-20",
+      "name": "春分",
+      "type": "solar_term",
+      "category": "节气",
+      "holiday": false
+    },
+    {
+      "date": "2026-04-01",
+      "name": "愚人节",
+      "type": "festival",
+      "category": "国际节日",
+      "holiday": false
+    },
+    {
+      "date": "2026-04-04",
+      "name": "清明节",
+      "type": "festival",
+      "category": "法定节假日",
+      "holiday": true
+    },
+    {
+      "date": "2026-04-20",
+      "name": "谷雨",
+      "type": "solar_term",
+      "category": "节气",
+      "holiday": false
+    },
+    {
+      "date": "2026-05-01",
+      "name": "劳动节",
+      "type": "festival",
+      "category": "法定节假日",
+      "holiday": true
+    },
+    {
+      "date": "2026-05-04",
+      "name": "青年节",
+      "type": "festival",
+      "category": "国内节日",
+      "holiday": false
+    },
+    {
+      "date": "2026-05-05",
+      "name": "立夏",
+      "type": "solar_term",
+      "category": "节气",
+      "holiday": false
+    },
+    {
+      "date": "2026-05-10",
+      "name": "母亲节",
+      "type": "festival",
+      "category": "国际节日",
+      "holiday": false
+    },
+    {
+      "date": "2026-05-21",
+      "name": "小满",
+      "type": "solar_term",
+      "category": "节气",
+      "holiday": false
+    },
+    {
+      "date": "2026-06-01",
+      "name": "儿童节",
+      "type": "festival",
+      "category": "国际节日",
+      "holiday": false
+    },
+    {
+      "date": "2026-06-05",
+      "name": "芒种",
+      "type": "solar_term",
+      "category": "节气",
+      "holiday": false
+    },
+    {
+      "date": "2026-06-21",
+      "name": "夏至",
+      "type": "solar_term",
+      "category": "节气",
+      "holiday": false
+    },
+    {
+      "date": "2026-06-21",
+      "name": "父亲节",
+      "type": "festival",
+      "category": "国际节日",
+      "holiday": false
+    },
+    {
+      "date": "2026-07-07",
+      "name": "小暑",
+      "type": "solar_term",
+      "category": "节气",
+      "holiday": false
+    },
+    {
+      "date": "2026-07-23",
+      "name": "大暑",
+      "type": "solar_term",
+      "category": "节气",
+      "holiday": false
+    },
+    {
+      "date": "2026-08-07",
+      "name": "立秋",
+      "type": "solar_term",
+      "category": "节气",
+      "holiday": false
+    },
+    {
+      "date": "2026-08-23",
+      "name": "处暑",
+      "type": "solar_term",
+      "category": "节气",
+      "holiday": false
+    },
+    {
+      "date": "2026-09-08",
+      "name": "白露",
+      "type": "solar_term",
+      "category": "节气",
+      "holiday": false
+    },
+    {
+      "date": "2026-09-10",
+      "name": "教师节",
+      "type": "festival",
+      "category": "国内节日",
+      "holiday": false
+    },
+    {
+      "date": "2026-09-23",
+      "name": "秋分",
+      "type": "solar_term",
+      "category": "节气",
+      "holiday": false
+    },
+    {
+      "date": "2026-10-01",
+      "name": "国庆节",
+      "type": "festival",
+      "category": "法定节假日",
+      "holiday": true
+    },
+    {
+      "date": "2026-10-08",
+      "name": "寒露",
+      "type": "solar_term",
+      "category": "节气",
+      "holiday": false
+    },
+    {
+      "date": "2026-10-23",
+      "name": "霜降",
+      "type": "solar_term",
+      "category": "节气",
+      "holiday": false
+    },
+    {
+      "date": "2026-11-07",
+      "name": "立冬",
+      "type": "solar_term",
+      "category": "节气",
+      "holiday": false
+    },
+    {
+      "date": "2026-11-22",
+      "name": "小雪",
+      "type": "solar_term",
+      "category": "节气",
+      "holiday": false
+    },
+    {
+      "date": "2026-12-07",
+      "name": "大雪",
+      "type": "solar_term",
+      "category": "节气",
+      "holiday": false
+    },
+    {
+      "date": "2026-12-21",
+      "name": "冬至",
+      "type": "solar_term",
+      "category": "节气",
+      "holiday": false
+    },
+    {
+      "date": "2026-12-25",
+      "name": "圣诞节",
+      "type": "festival",
+      "category": "国际节日",
+      "holiday": false
+    }
+  ]
+}

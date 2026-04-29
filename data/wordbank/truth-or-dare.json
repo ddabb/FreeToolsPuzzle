@@ -1,0 +1,1037 @@
+{
+  "id": "truth-or-dare",
+  "name": "真心话大冒险题目库",
+  "icon": "🎭",
+  "description": "聚会必备真心话大冒险题目，按难度和类型分类",
+  "updateDate": "2026-04-17",
+  "totalCount": {
+    "truth": 130,
+    "dare": 120
+  },
+  "categories": [
+    {
+      "id": "truth",
+      "name": "真心话",
+      "icon": "💬",
+      "description": "说出真相",
+      "items": [
+        {
+          "id": "t-e-01", "difficulty": "easy", "category": "感情",
+          "text": "你现在的暗恋对象是谁？"
+        },
+        {
+          "id": "t-e-02", "difficulty": "easy", "category": "感情",
+          "text": "你初吻是在什么年纪丢掉的？"
+        },
+        {
+          "id": "t-e-03", "difficulty": "easy", "category": "感情",
+          "text": "谈过几次恋爱？"
+        },
+        {
+          "id": "t-e-04", "difficulty": "easy", "category": "感情",
+          "text": "你理想中的另一半是什么样的？"
+        },
+        {
+          "id": "t-e-05", "difficulty": "easy", "category": "感情",
+          "text": "你相信一见钟情吗？"
+        },
+        {
+          "id": "t-e-06", "difficulty": "easy", "category": "感情",
+          "text": "你为喜欢的人做过最傻的事是什么？"
+        },
+        {
+          "id": "t-e-07", "difficulty": "easy", "category": "感情",
+          "text": "你对现任的第一印象是什么？"
+        },
+        {
+          "id": "t-e-08", "difficulty": "easy", "category": "感情",
+          "text": "你更喜欢被追还是主动追别人？"
+        },
+        {
+          "id": "t-e-09", "difficulty": "easy", "category": "感情",
+          "text": "你觉得恋爱中最重要的东西是什么？"
+        },
+        {
+          "id": "t-e-10", "difficulty": "easy", "category": "感情",
+          "text": "你最快的一次心动是多久？"
+        },
+        {
+          "id": "t-e-11", "difficulty": "easy", "category": "感情",
+          "text": "有没有人追你的时候你觉得特别感动？"
+        },
+        {
+          "id": "t-e-12", "difficulty": "easy", "category": "感情",
+          "text": "你会为了喜欢的人改变自己吗？"
+        },
+        {
+          "id": "t-e-13", "difficulty": "easy", "category": "感情",
+          "text": "你对网恋怎么看？"
+        },
+        {
+          "id": "t-e-14", "difficulty": "easy", "category": "感情",
+          "text": "你更看重外表还是内在？"
+        },
+        {
+          "id": "t-e-15", "difficulty": "easy", "category": "感情",
+          "text": "有没有喜欢过朋友的对象？"
+        },
+        {
+          "id": "t-e-16", "difficulty": "easy", "category": "秘密",
+          "text": "你有没有说过朋友的坏话？最多说过几次？"
+        },
+        {
+          "id": "t-e-17", "difficulty": "easy", "category": "秘密",
+          "text": "你偷看过别人的日记或手机吗？"
+        },
+        {
+          "id": "t-e-18", "difficulty": "easy", "category": "秘密",
+          "text": "你最不想让父母知道的一件事是什么？"
+        },
+        {
+          "id": "t-e-19", "difficulty": "easy", "category": "秘密",
+          "text": "你有没有在课堂上偷偷做过什么？"
+        },
+        {
+          "id": "t-e-20", "difficulty": "easy", "category": "秘密",
+          "text": "你最尴尬的社死经历是什么？"
+        },
+        {
+          "id": "t-e-21", "difficulty": "easy", "category": "秘密",
+          "text": "你有没有偷偷多拿过零花钱？"
+        },
+        {
+          "id": "t-e-22", "difficulty": "easy", "category": "秘密",
+          "text": "你有没有在背后告过状？"
+        },
+        {
+          "id": "t-e-23", "difficulty": "easy", "category": "秘密",
+          "text": "你有没有偷偷不喜欢某个老师但表面很乖？"
+        },
+        {
+          "id": "t-e-24", "difficulty": "easy", "category": "秘密",
+          "text": "你私底下最爱看什么类型的视频？"
+        },
+        {
+          "id": "t-e-25", "difficulty": "easy", "category": "秘密",
+          "text": "你睡觉前必看的App是什么？"
+        },
+        {
+          "id": "t-e-26", "difficulty": "easy", "category": "经历",
+          "text": "你最难忘的一次旅行是哪次？"
+        },
+        {
+          "id": "t-e-27", "difficulty": "easy", "category": "经历",
+          "text": "你小时候最想成为什么样的人？"
+        },
+        {
+          "id": "t-e-28", "difficulty": "easy", "category": "经历",
+          "text": "你做过的最疯狂的梦是什么？"
+        },
+        {
+          "id": "t-e-29", "difficulty": "easy", "category": "经历",
+          "text": "你收到过最难忘的礼物是什么？"
+        },
+        {
+          "id": "t-e-30", "difficulty": "easy", "category": "经历",
+          "text": "你第一次打工/兼职是做什么？"
+        },
+        {
+          "id": "t-e-31", "difficulty": "easy", "category": "经历",
+          "text": "你最糗的一次经历是什么？"
+        },
+        {
+          "id": "t-e-32", "difficulty": "easy", "category": "经历",
+          "text": "你有没有逃课/翘班的经历？"
+        },
+        {
+          "id": "t-e-33", "difficulty": "easy", "category": "经历",
+          "text": "你第一次喝酒是什么时候？感觉怎么样？"
+        },
+        {
+          "id": "t-e-34", "difficulty": "easy", "category": "经历",
+          "text": "你收到过最让你脸红的表白吗？"
+        },
+        {
+          "id": "t-e-35", "difficulty": "easy", "category": "经历",
+          "text": "你人生中最大的一次意外是什么？"
+        },
+        {
+          "id": "t-e-36", "difficulty": "easy", "category": "性格",
+          "text": "你最大的缺点是什么？"
+        },
+        {
+          "id": "t-e-37", "difficulty": "easy", "category": "性格",
+          "text": "你最害怕什么？"
+        },
+        {
+          "id": "t-e-38", "difficulty": "easy", "category": "性格",
+          "text": "你觉得自己最大的优点是什么？"
+        },
+        {
+          "id": "t-e-39", "difficulty": "easy", "category": "性格",
+          "text": "你脾气最暴躁的时候会怎么样？"
+        },
+        {
+          "id": "t-e-40", "difficulty": "easy", "category": "性格",
+          "text": "你是一个念旧的人吗？"
+        },
+        {
+          "id": "t-e-41", "difficulty": "easy", "category": "性格",
+          "text": "你做事是冲动派还是深思熟虑型？"
+        },
+        {
+          "id": "t-e-42", "difficulty": "easy", "category": "性格",
+          "text": "你最受不了别人的什么行为？"
+        },
+        {
+          "id": "t-e-43", "difficulty": "easy", "category": "性格",
+          "text": "你习惯早起还是夜猫子？"
+        },
+        {
+          "id": "t-e-44", "difficulty": "easy", "category": "性格",
+          "text": "你是内向还是外向的人？"
+        },
+        {
+          "id": "t-e-45", "difficulty": "easy", "category": "性格",
+          "text": "你压力大的时候通常怎么缓解？"
+        },
+        {
+          "id": "t-e-46", "difficulty": "easy", "category": "八卦",
+          "text": "在场的人里，你最羡慕谁的生活？"
+        },
+        {
+          "id": "t-e-47", "difficulty": "easy", "category": "八卦",
+          "text": "你觉得在场谁最适合当你的闺蜜/兄弟？"
+        },
+        {
+          "id": "t-e-48", "difficulty": "easy", "category": "八卦",
+          "text": "你觉得在场谁最有可能成为网红？"
+        },
+        {
+          "id": "t-e-49", "difficulty": "easy", "category": "八卦",
+          "text": "在场的人里，谁穿衣服最有品味？"
+        },
+        {
+          "id": "t-e-50", "difficulty": "easy", "category": "八卦",
+          "text": "你觉得谁的声音最好听？"
+        },
+        {
+          "id": "t-e-51", "difficulty": "easy", "category": "八卦",
+          "text": "你觉得在场谁最会做饭？"
+        },
+        {
+          "id": "t-e-52", "difficulty": "easy", "category": "八卦",
+          "text": "在场的人里，你觉得谁最有故事？"
+        },
+        {
+          "id": "t-e-53", "difficulty": "easy", "category": "八卦",
+          "text": "你见过最奇葩的室友是什么样的？"
+        },
+        {
+          "id": "t-e-54", "difficulty": "easy", "category": "八卦",
+          "text": "你觉得在场谁最有可能先结婚？"
+        },
+        {
+          "id": "t-e-55", "difficulty": "easy", "category": "八卦",
+          "text": "你觉得在场谁最宅？"
+        },
+        {
+          "id": "t-e-56", "difficulty": "easy", "category": "八卦",
+          "text": "谁的笑声最让你崩溃？"
+        },
+        {
+          "id": "t-m-01", "difficulty": "medium", "category": "感情",
+          "text": "你谈过最长时间的恋爱是多久？分手原因是什么？"
+        },
+        {
+          "id": "t-m-02", "difficulty": "medium", "category": "感情",
+          "text": "你有没有脚踏两条船过？详细说说。"
+        },
+        {
+          "id": "t-m-03", "difficulty": "medium", "category": "感情",
+          "text": "你暗恋最久的一次持续了多长时间？"
+        },
+        {
+          "id": "t-m-04", "difficulty": "medium", "category": "感情",
+          "text": "你有没有表白被拒绝过？当时什么感受？"
+        },
+        {
+          "id": "t-m-05", "difficulty": "medium", "category": "感情",
+          "text": "你前任和现任，你更喜欢谁？"
+        },
+        {
+          "id": "t-m-06", "difficulty": "medium", "category": "感情",
+          "text": "你有没有分手后还和前任保持联系？"
+        },
+        {
+          "id": "t-m-07", "difficulty": "medium", "category": "感情",
+          "text": "你心里有没有一个永远放不下的人？"
+        },
+        {
+          "id": "t-m-08", "difficulty": "medium", "category": "感情",
+          "text": "你谈恋爱的出发点是什么？（寂寞？真爱？面子？）"
+        },
+        {
+          "id": "t-m-09", "difficulty": "medium", "category": "感情",
+          "text": "你会不会为了结婚将就？你能接受将就吗？"
+        },
+        {
+          "id": "t-m-10", "difficulty": "medium", "category": "感情",
+          "text": "你觉得门当户对重要吗？"
+        },
+        {
+          "id": "t-m-11", "difficulty": "medium", "category": "感情",
+          "text": "你后悔过分手吗？"
+        },
+        {
+          "id": "t-m-12", "difficulty": "medium", "category": "感情",
+          "text": "你现在还爱你前任吗？哪怕只有一点点？"
+        },
+        {
+          "id": "t-m-13", "difficulty": "medium", "category": "秘密",
+          "text": "你曾经说过最大的谎言是什么？"
+        },
+        {
+          "id": "t-m-14", "difficulty": "medium", "category": "秘密",
+          "text": "你有没有背叛过最好的朋友？"
+        },
+        {
+          "id": "t-m-15", "difficulty": "medium", "category": "秘密",
+          "text": "你最不想让另一半知道的事情是什么？"
+        },
+        {
+          "id": "t-m-16", "difficulty": "medium", "category": "秘密",
+          "text": "你有没有偷偷哭过？为什么？"
+        },
+        {
+          "id": "t-m-17", "difficulty": "medium", "category": "秘密",
+          "text": "你做过最昧良心的一件事是什么？"
+        },
+        {
+          "id": "t-m-18", "difficulty": "medium", "category": "秘密",
+          "text": "你有没有借了钱不还的经历？"
+        },
+        {
+          "id": "t-m-19", "difficulty": "medium", "category": "秘密",
+          "text": "你偷偷讨厌过自己的父母吗？为什么？"
+        },
+        {
+          "id": "t-m-20", "difficulty": "medium", "category": "秘密",
+          "text": "你有没有偷看过不该看的东西？（网站/视频等）"
+        },
+        {
+          "id": "t-m-21", "difficulty": "medium", "category": "秘密",
+          "text": "你曾经对谁撒过一个让你很后悔的谎？"
+        },
+        {
+          "id": "t-m-22", "difficulty": "medium", "category": "秘密",
+          "text": "你有没有偷偷嫉妒过朋友的好运气？"
+        },
+        {
+          "id": "t-m-23", "difficulty": "medium", "category": "经历",
+          "text": "你做过最后悔的一个决定是什么？"
+        },
+        {
+          "id": "t-m-24", "difficulty": "medium", "category": "经历",
+          "text": "你有没有想过出轨/离婚？现在还想吗？"
+        },
+        {
+          "id": "t-m-25", "difficulty": "medium", "category": "经历",
+          "text": "你最想撤回的一次发送是什么？（微信/短信）"
+        },
+        {
+          "id": "t-m-26", "difficulty": "medium", "category": "经历",
+          "text": "你有没有经历过人生最黑暗的时刻？那时候在想什么？"
+        },
+        {
+          "id": "t-m-27", "difficulty": "medium", "category": "经历",
+          "text": "你做过最让自己骄傲的事是什么？"
+        },
+        {
+          "id": "t-m-28", "difficulty": "medium", "category": "经历",
+          "text": "你有没有在众目睽睽下出过丑？详细说说。"
+        },
+        {
+          "id": "t-m-29", "difficulty": "medium", "category": "经历",
+          "text": "你曾经放弃过什么重要的东西？后悔吗？"
+        },
+        {
+          "id": "t-m-30", "difficulty": "medium", "category": "经历",
+          "text": "你有没有见过鬼？或者经历过什么无法解释的事？"
+        },
+        {
+          "id": "t-m-31", "difficulty": "medium", "category": "性格",
+          "text": "你有没有曾经很讨厌一个人，后来又喜欢上了？"
+        },
+        {
+          "id": "t-m-32", "difficulty": "medium", "category": "性格",
+          "text": "你最不能接受另一半的什么行为？"
+        },
+        {
+          "id": "t-m-33", "difficulty": "medium", "category": "性格",
+          "text": "你觉得自己是个自私的人吗？有哪些自私的行为？"
+        },
+        {
+          "id": "t-m-34", "difficulty": "medium", "category": "性格",
+          "text": "你最讨厌自己身上的哪一点？"
+        },
+        {
+          "id": "t-m-35", "difficulty": "medium", "category": "性格",
+          "text": "你有没有对谁产生过强烈的嫉妒心理？"
+        },
+        {
+          "id": "t-m-36", "difficulty": "medium", "category": "性格",
+          "text": "你更在意别人对你的看法吗？具体在意什么？"
+        },
+        {
+          "id": "t-m-37", "difficulty": "medium", "category": "性格",
+          "text": "你觉得自己虚伪吗？什么时候会装作不是自己？"
+        },
+        {
+          "id": "t-m-38", "difficulty": "medium", "category": "八卦",
+          "text": "你给在场异性的颜值打几分（满分10分）？"
+        },
+        {
+          "id": "t-m-39", "difficulty": "medium", "category": "八卦",
+          "text": "在场的人里，你最想和谁成为情侣？"
+        },
+        {
+          "id": "t-m-40", "difficulty": "medium", "category": "八卦",
+          "text": "你觉得在场谁最可能一夜成名？"
+        },
+        {
+          "id": "t-m-41", "difficulty": "medium", "category": "八卦",
+          "text": "在场的人里，你最不想和谁做室友？"
+        },
+        {
+          "id": "t-m-42", "difficulty": "medium", "category": "八卦",
+          "text": "你猜猜在场谁的秘密最多？"
+        },
+        {
+          "id": "t-m-43", "difficulty": "medium", "category": "八卦",
+          "text": "你觉得在场谁最有可能当老板？"
+        },
+        {
+          "id": "t-m-44", "difficulty": "medium", "category": "八卦",
+          "text": "在场的人里，你觉得谁最会照顾人？"
+        },
+        {
+          "id": "t-m-45", "difficulty": "medium", "category": "八卦",
+          "text": "你觉得谁最有可能在背后说别人坏话？"
+        },
+        {
+          "id": "t-h-01", "difficulty": "hard", "category": "感情",
+          "text": "你觉得自己现在的感情生活幸福吗？为什么？"
+        },
+        {
+          "id": "t-h-02", "difficulty": "hard", "category": "感情",
+          "text": "如果前任突然回头找你，你会怎么选择？"
+        },
+        {
+          "id": "t-h-03", "difficulty": "hard", "category": "感情",
+          "text": "你有没有同时喜欢过两个人？怎么处理的？"
+        },
+        {
+          "id": "t-h-04", "difficulty": "hard", "category": "感情",
+          "text": "如果有机会让你回到过去，你会改变什么感情选择？"
+        },
+        {
+          "id": "t-h-05", "difficulty": "hard", "category": "感情",
+          "text": "你现在的伴侣是你最理想的选择吗？还是只是将就？"
+        },
+        {
+          "id": "t-h-06", "difficulty": "hard", "category": "感情",
+          "text": "你有没有觉得自己的婚姻/恋爱是个错误？"
+        },
+        {
+          "id": "t-h-07", "difficulty": "hard", "category": "感情",
+          "text": "如果你的伴侣背叛了你一次但真诚道歉，你会原谅吗？"
+        },
+        {
+          "id": "t-h-08", "difficulty": "hard", "category": "感情",
+          "text": "你有没有在心里比较过现任和前任？结果是什么？"
+        },
+        {
+          "id": "t-h-09", "difficulty": "hard", "category": "秘密",
+          "text": "你有没有在背后说过家人的坏话？具体说过什么？"
+        },
+        {
+          "id": "t-h-10", "difficulty": "hard", "category": "秘密",
+          "text": "你有没有做过违法的事？详细说说。"
+        },
+        {
+          "id": "t-h-11", "difficulty": "hard", "category": "秘密",
+          "text": "你有没有很讨厌自己的家人？为什么？"
+        },
+        {
+          "id": "t-h-12", "difficulty": "hard", "category": "秘密",
+          "text": "你做过最阴暗的事情是什么？"
+        },
+        {
+          "id": "t-h-13", "difficulty": "hard", "category": "秘密",
+          "text": "你有没有恨过自己的父母？恨到想过报复？"
+        },
+        {
+          "id": "t-h-14", "difficulty": "hard", "category": "秘密",
+          "text": "你有没有为了自己的利益伤害过别人？"
+        },
+        {
+          "id": "t-h-15", "difficulty": "hard", "category": "秘密",
+          "text": "你有没有在心里诅咒过谁？诅咒的是什么？"
+        },
+        {
+          "id": "t-h-16", "difficulty": "hard", "category": "秘密",
+          "text": "你有没有觉得自己是个很差劲的人？什么时候？"
+        },
+        {
+          "id": "t-h-17", "difficulty": "hard", "category": "经历",
+          "text": "你有没有想过自杀或者轻生？当时是什么情况？"
+        },
+        {
+          "id": "t-h-18", "difficulty": "hard", "category": "经历",
+          "text": "你最对不起的人是谁？为什么？"
+        },
+        {
+          "id": "t-h-19", "difficulty": "hard", "category": "经历",
+          "text": "你人生中最大的遗憾是什么？"
+        },
+        {
+          "id": "t-h-20", "difficulty": "hard", "category": "经历",
+          "text": "你有没有做过让自己极度后悔的事，想抹掉那段记忆？"
+        },
+        {
+          "id": "t-h-21", "difficulty": "hard", "category": "经历",
+          "text": "你曾经为了什么付出过一切？值得吗？"
+        },
+        {
+          "id": "t-h-22", "difficulty": "hard", "category": "经历",
+          "text": "你有没有差点走上犯罪的道路？是什么阻止了你？"
+        },
+        {
+          "id": "t-h-23", "difficulty": "hard", "category": "性格",
+          "text": "如果你变得很有钱，你会抛弃现在的朋友吗？"
+        },
+        {
+          "id": "t-h-24", "difficulty": "hard", "category": "性格",
+          "text": "你有多了解自己？你知道自己真正想要什么吗？"
+        },
+        {
+          "id": "t-h-25", "difficulty": "hard", "category": "性格",
+          "text": "如果你的秘密被公开，你最怕被谁知道？"
+        },
+        {
+          "id": "t-h-26", "difficulty": "hard", "category": "性格",
+          "text": "你有没有很深的偏见或者歧视？你愿意承认吗？"
+        },
+        {
+          "id": "t-h-27", "difficulty": "hard", "category": "性格",
+          "text": "你觉得自己配得上现在的成就吗？还是靠运气？"
+        },
+        {
+          "id": "t-h-28", "difficulty": "hard", "category": "八卦",
+          "text": "你怀疑过在场谁说谎了吗？说说你怀疑的理由。"
+        },
+        {
+          "id": "t-h-29", "difficulty": "hard", "category": "八卦",
+          "text": "你觉得在场谁最会伪装？说说你的理由。"
+        },
+        {
+          "id": "t-h-30", "difficulty": "hard", "category": "八卦",
+          "text": "在场的人里，谁是你最不信任的？为什么？"
+        }
+      ]
+    },
+    {
+      "id": "dare",
+      "name": "大冒险",
+      "icon": "🎲",
+      "description": "完成任务挑战",
+      "items": [
+        {
+          "id": "d-e-01", "difficulty": "easy", "category": "表演",
+          "text": "模仿在场任意一个人讲话，持续1分钟"
+        },
+        {
+          "id": "d-e-02", "difficulty": "easy", "category": "表演",
+          "text": "学一种动物的叫声，让在场的人猜"
+        },
+        {
+          "id": "d-e-03", "difficulty": "easy", "category": "表演",
+          "text": "用rap的方式自我介绍"
+        },
+        {
+          "id": "d-e-04", "difficulty": "easy", "category": "表演",
+          "text": "扮演一只正在过马路的母鸡，持续30秒"
+        },
+        {
+          "id": "d-e-05", "difficulty": "easy", "category": "表演",
+          "text": "模仿你最喜欢的明星唱歌30秒"
+        },
+        {
+          "id": "d-e-06", "difficulty": "easy", "category": "表演",
+          "text": "模仿蜡笔小新说话方式念一句台词"
+        },
+        {
+          "id": "d-e-07", "difficulty": "easy", "category": "表演",
+          "text": "用唐老鸭的声音读一句广告词"
+        },
+        {
+          "id": "d-e-08", "difficulty": "easy", "category": "表演",
+          "text": "表演一个你在路上看到有人假装打电话的场景"
+        },
+        {
+          "id": "d-e-09", "difficulty": "easy", "category": "表演",
+          "text": "模仿你上学时老师的经典口头禅"
+        },
+        {
+          "id": "d-e-10", "difficulty": "easy", "category": "表演",
+          "text": "表演你早上起床闹钟响了的反应"
+        },
+        {
+          "id": "d-e-11", "difficulty": "easy", "category": "表演",
+          "text": "用播音腔念天气预报"
+        },
+        {
+          "id": "d-e-12", "difficulty": "easy", "category": "表演",
+          "text": "表演一段你在厕所忘带纸的反应"
+        },
+        {
+          "id": "d-e-13", "difficulty": "easy", "category": "表演",
+          "text": "模仿网络红人的标志性动作和口头禅"
+        },
+        {
+          "id": "d-e-14", "difficulty": "easy", "category": "社交",
+          "text": "当场给最近联系的人发一条：'我想你了'"
+        },
+        {
+          "id": "d-e-15", "difficulty": "easy", "category": "社交",
+          "text": "和在场的人任意一位对视10秒，不许笑"
+        },
+        {
+          "id": "d-e-16", "difficulty": "easy", "category": "社交",
+          "text": "当场给你的父母发一条：'爸/妈，我爱你们'"
+        },
+        {
+          "id": "d-e-17", "difficulty": "easy", "category": "社交",
+          "text": "当场给一位在场的人一个拥抱"
+        },
+        {
+          "id": "d-e-18", "difficulty": "easy", "category": "社交",
+          "text": "和在场的人用三种不同的语言说'你好'"
+        },
+        {
+          "id": "d-e-19", "difficulty": "easy", "category": "社交",
+          "text": "当场和旁边的人互换一件随身物品"
+        },
+        {
+          "id": "d-e-20", "difficulty": "easy", "category": "社交",
+          "text": "当场给你的好兄弟/闺蜜打视频电话"
+        },
+        {
+          "id": "d-e-21", "difficulty": "easy", "category": "社交",
+          "text": "和在场最年长的人握手并说三句赞美的话"
+        },
+        {
+          "id": "d-e-22", "difficulty": "easy", "category": "社交",
+          "text": "当场拉着在场的人一起拍一张合照"
+        },
+        {
+          "id": "d-e-23", "difficulty": "easy", "category": "创意",
+          "text": "用三个emoji表达你现在的感受"
+        },
+        {
+          "id": "d-e-24", "difficulty": "easy", "category": "创意",
+          "text": "即兴表演一段30秒的广告，推广你自己"
+        },
+        {
+          "id": "d-e-25", "difficulty": "easy", "category": "创意",
+          "text": "用手机倒计时拍照，拍出最丑的表情"
+        },
+        {
+          "id": "d-e-26", "difficulty": "easy", "category": "创意",
+          "text": "当场编一个关于在场某人的小故事"
+        },
+        {
+          "id": "d-e-27", "difficulty": "easy", "category": "创意",
+          "text": "用顺口溜的方式报出在场所有人的名字"
+        },
+        {
+          "id": "d-e-28", "difficulty": "easy", "category": "创意",
+          "text": "当场用脚写字展示签名"
+        },
+        {
+          "id": "d-e-29", "difficulty": "easy", "category": "搞笑",
+          "text": "把手机里最近拍的一张照片给大家看"
+        },
+        {
+          "id": "d-e-30", "difficulty": "easy", "category": "搞笑",
+          "text": "用方言念一遍在场所有人的名字"
+        },
+        {
+          "id": "d-e-31", "difficulty": "easy", "category": "搞笑",
+          "text": "当场模仿微信表情包的经典表情，连续做5个"
+        },
+        {
+          "id": "d-e-32", "difficulty": "easy", "category": "搞笑",
+          "text": "把微信昵称改成'全场最帅'并保持到游戏结束"
+        },
+        {
+          "id": "d-e-33", "difficulty": "easy", "category": "搞笑",
+          "text": "当场模仿别人打喷嚏的样子"
+        },
+        {
+          "id": "d-e-34", "difficulty": "easy", "category": "搞笑",
+          "text": "用最夸张的方式大笑10秒"
+        },
+        {
+          "id": "d-e-35", "difficulty": "easy", "category": "搞笑",
+          "text": "把朋友圈最近的一条动态读出来"
+        },
+        {
+          "id": "d-e-36", "difficulty": "easy", "category": "挑战",
+          "text": "原地转10圈，然后走直线走到指定位置"
+        },
+        {
+          "id": "d-e-37", "difficulty": "easy", "category": "挑战",
+          "text": "单脚站立30秒，不能扶任何东西"
+        },
+        {
+          "id": "d-e-38", "difficulty": "easy", "category": "挑战",
+          "text": "一口气喝完半瓶矿泉水"
+        },
+        {
+          "id": "d-e-39", "difficulty": "easy", "category": "挑战",
+          "text": "闭眼单脚站立，睁眼后保持10秒"
+        },
+        {
+          "id": "d-e-40", "difficulty": "easy", "category": "挑战",
+          "text": "连续做10个深蹲"
+        },
+        {
+          "id": "d-e-41", "difficulty": "easy", "category": "挑战",
+          "text": "用非惯用手写自己的名字"
+        },
+        {
+          "id": "d-e-42", "difficulty": "easy", "category": "挑战",
+          "text": "憋气15秒"
+        },
+        {
+          "id": "d-e-43", "difficulty": "easy", "category": "挑战",
+          "text": "模仿大猩猩走路30秒"
+        },
+        {
+          "id": "d-e-44", "difficulty": "easy", "category": "挑战",
+          "text": "一口气把舌头卷起来，保持5秒"
+        },
+        {
+          "id": "d-m-01", "difficulty": "medium", "category": "表演",
+          "text": "模仿你前任的日常习惯，持续2分钟"
+        },
+        {
+          "id": "d-m-02", "difficulty": "medium", "category": "表演",
+          "text": "扮演电影里的经典桥段，让在场的人猜是哪部电影"
+        },
+        {
+          "id": "d-m-03", "difficulty": "medium", "category": "表演",
+          "text": "用另外一种性别的方式和旁边的人对话1分钟"
+        },
+        {
+          "id": "d-m-04", "difficulty": "medium", "category": "表演",
+          "text": "当场唱一首情歌，要唱完整段副歌"
+        },
+        {
+          "id": "d-m-05", "difficulty": "medium", "category": "表演",
+          "text": "模仿在场所有人轮流说话的特点"
+        },
+        {
+          "id": "d-m-06", "difficulty": "medium", "category": "表演",
+          "text": "当场上演一段即兴分手戏"
+        },
+        {
+          "id": "d-m-07", "difficulty": "medium", "category": "表演",
+          "text": "用哭腔读一段你最讨厌的广告词"
+        },
+        {
+          "id": "d-m-08", "difficulty": "medium", "category": "表演",
+          "text": "扮演机器人的各种行为模式"
+        },
+        {
+          "id": "d-m-09", "difficulty": "medium", "category": "表演",
+          "text": "模仿古代人见面打招呼的方式"
+        },
+        {
+          "id": "d-m-10", "difficulty": "medium", "category": "表演",
+          "text": "当场表演一段你喝醉酒后的状态"
+        },
+        {
+          "id": "d-m-11", "difficulty": "medium", "category": "表演",
+          "text": "模仿在场某人发脾气的样子"
+        },
+        {
+          "id": "d-m-12", "difficulty": "medium", "category": "表演",
+          "text": "用默剧的方式表演'在餐厅等上菜'"
+        },
+        {
+          "id": "d-m-13", "difficulty": "medium", "category": "社交",
+          "text": "当场给你的前任发一条消息，内容是：'最近还好吗？'"
+        },
+        {
+          "id": "d-m-14", "difficulty": "medium", "category": "社交",
+          "text": "当场打电话给朋友借500块钱，并说明天还"
+        },
+        {
+          "id": "d-m-15", "difficulty": "medium", "category": "社交",
+          "text": "和在场最胖的人公主抱，坚持5秒"
+        },
+        {
+          "id": "d-m-16", "difficulty": "medium", "category": "社交",
+          "text": "当场给你的老板/老师发一条消息：'明天我想请假'"
+        },
+        {
+          "id": "d-m-17", "difficulty": "medium", "category": "社交",
+          "text": "当场和你最不熟的人进行1分钟深度对话"
+        },
+        {
+          "id": "d-m-18", "difficulty": "medium", "category": "社交",
+          "text": "当场和旁边的异性手牵手坐在一起3分钟"
+        },
+        {
+          "id": "d-m-19", "difficulty": "medium", "category": "社交",
+          "text": "当场给你的5位微信好友群发'在吗？'"
+        },
+        {
+          "id": "d-m-20", "difficulty": "medium", "category": "社交",
+          "text": "当场给在场最年长的人磕一个头"
+        },
+        {
+          "id": "d-m-21", "difficulty": "medium", "category": "社交",
+          "text": "当场和在场的人猜拳，输了要当众夸自己3句"
+        },
+        {
+          "id": "d-m-22", "difficulty": "medium", "category": "社交",
+          "text": "当着所有人的面，给你在乎的人打个电话"
+        },
+        {
+          "id": "d-m-23", "difficulty": "medium", "category": "创意",
+          "text": "用手机搜索'我喜欢你'，然后把搜索结果给大家看"
+        },
+        {
+          "id": "d-m-24", "difficulty": "medium", "category": "创意",
+          "text": "当场给在场的任意一个人画一幅肖像画（可以用手机）"
+        },
+        {
+          "id": "d-m-25", "difficulty": "medium", "category": "创意",
+          "text": "当场用三个词形容你最讨厌的食物，然后推销它"
+        },
+        {
+          "id": "d-m-26", "difficulty": "medium", "category": "创意",
+          "text": "当场把今天的日期谐音成一个浪漫的表白"
+        },
+        {
+          "id": "d-m-27", "difficulty": "medium", "category": "创意",
+          "text": "用即兴 rap 描述在场某个人的外貌"
+        },
+        {
+          "id": "d-m-28", "difficulty": "medium", "category": "创意",
+          "text": "当场为聚会创作一句 slogan"
+        },
+        {
+          "id": "d-m-29", "difficulty": "medium", "category": "搞笑",
+          "text": "把手机通讯录第一个联系人设为你的'另一半'"
+        },
+        {
+          "id": "d-m-30", "difficulty": "medium", "category": "搞笑",
+          "text": "当场吃一勺芥末或辣椒，并表演出各种表情"
+        },
+        {
+          "id": "d-m-31", "difficulty": "medium", "category": "搞笑",
+          "text": "用屁股写自己的名字（用身体比划）"
+        },
+        {
+          "id": "d-m-32", "difficulty": "medium", "category": "搞笑",
+          "text": "把手机解锁密码改成'猪八戒'并展示给所有人看"
+        },
+        {
+          "id": "d-m-33", "difficulty": "medium", "category": "搞笑",
+          "text": "当众把自己微信头像换成在场某人照片1分钟"
+        },
+        {
+          "id": "d-m-34", "difficulty": "medium", "category": "搞笑",
+          "text": "模仿在场的某个人走路，坚持30秒"
+        },
+        {
+          "id": "d-m-35", "difficulty": "medium", "category": "搞笑",
+          "text": "用播音腔播报今天吃了什么"
+        },
+        {
+          "id": "d-m-36", "difficulty": "medium", "category": "挑战",
+          "text": "一口气喝完一杯水（不能换气）"
+        },
+        {
+          "id": "d-m-37", "difficulty": "medium", "category": "挑战",
+          "text": "和在场的人扳手腕，输了要做10个俯卧撑"
+        },
+        {
+          "id": "d-m-38", "difficulty": "medium", "category": "挑战",
+          "text": "背对着墙壁站立，保持30秒不倒"
+        },
+        {
+          "id": "d-m-39", "difficulty": "medium", "category": "挑战",
+          "text": "一口气做20个开合跳"
+        },
+        {
+          "id": "d-m-40", "difficulty": "medium", "category": "挑战",
+          "text": "尝试用筷子夹住自己的鼻子"
+        },
+        {
+          "id": "d-m-41", "difficulty": "medium", "category": "挑战",
+          "text": "闭眼原地踏步30秒，看谁走得最直"
+        },
+        {
+          "id": "d-m-42", "difficulty": "medium", "category": "挑战",
+          "text": "一口气憋气30秒"
+        },
+        {
+          "id": "d-m-43", "difficulty": "medium", "category": "挑战",
+          "text": "用你的鼻子碰到你的下巴，坚持5秒"
+        },
+        {
+          "id": "d-h-01", "difficulty": "hard", "category": "表演",
+          "text": "当场给在场任意一个人打电话，内容必须是：'其实我一直暗恋你'"
+        },
+        {
+          "id": "d-h-02", "difficulty": "hard", "category": "表演",
+          "text": "当场演唱一首悲伤情歌，要带入感情唱完整段"
+        },
+        {
+          "id": "d-h-03", "difficulty": "hard", "category": "表演",
+          "text": "模仿你妈妈/爸爸唠叨你的样子"
+        },
+        {
+          "id": "d-h-04", "difficulty": "hard", "category": "表演",
+          "text": "当众表演你面试时的紧张状态"
+        },
+        {
+          "id": "d-h-05", "difficulty": "hard", "category": "表演",
+          "text": "用最夸张的方式表演'收到分手短信'"
+        },
+        {
+          "id": "d-h-06", "difficulty": "hard", "category": "表演",
+          "text": "模仿在场的所有人轮流唱一句卡拉OK"
+        },
+        {
+          "id": "d-h-07", "difficulty": "hard", "category": "表演",
+          "text": "当场模拟你向父母要钱打电话的场景"
+        },
+        {
+          "id": "d-h-08", "difficulty": "hard", "category": "表演",
+          "text": "表演一段你在地铁上被人踩到脚的反应"
+        },
+        {
+          "id": "d-h-09", "difficulty": "hard", "category": "社交",
+          "text": "当场给你的暗恋对象发一条消息表白"
+        },
+        {
+          "id": "d-h-10", "difficulty": "hard", "category": "社交",
+          "text": "当众对你最讨厌的人说三句赞美的话"
+        },
+        {
+          "id": "d-h-11", "difficulty": "hard", "category": "社交",
+          "text": "当场和你最不想说话的人视频通话30秒"
+        },
+        {
+          "id": "d-h-12", "difficulty": "hard", "category": "社交",
+          "text": "当场打电话给妈妈说'我想你了'，不能挂断直到她先挂"
+        },
+        {
+          "id": "d-h-13", "difficulty": "hard", "category": "社交",
+          "text": "当场向你最尊敬的人发一条道歉消息"
+        },
+        {
+          "id": "d-h-14", "difficulty": "hard", "category": "社交",
+          "text": "当场和在场的人交换手机，任意翻看3分钟"
+        },
+        {
+          "id": "d-h-15", "difficulty": "hard", "category": "社交",
+          "text": "当众和你最好的朋友说一句对不起，说明原因"
+        },
+        {
+          "id": "d-h-16", "difficulty": "hard", "category": "创意",
+          "text": "当场在手机备忘录里写一段200字的日记，读给大家听"
+        },
+        {
+          "id": "d-h-17", "difficulty": "hard", "category": "创意",
+          "text": "当场用三个词形容你现在的感受，不能重复"
+        },
+        {
+          "id": "d-h-18", "difficulty": "hard", "category": "创意",
+          "text": "当场用土味情话向在场的人表白"
+        },
+        {
+          "id": "d-h-19", "difficulty": "hard", "category": "创意",
+          "text": "当场为聚会写一首藏头诗（每句第一个字连起来）"
+        },
+        {
+          "id": "d-h-20", "difficulty": "hard", "category": "创意",
+          "text": "当场把在场所有人的名字串成一个故事"
+        },
+        {
+          "id": "d-h-21", "difficulty": "hard", "category": "搞笑",
+          "text": "当场把你微信置顶聊天记录给大家看"
+        },
+        {
+          "id": "d-h-22", "difficulty": "hard", "category": "搞笑",
+          "text": "当场把你手机相册倒数第三张照片给大家看"
+        },
+        {
+          "id": "d-h-23", "difficulty": "hard", "category": "搞笑",
+          "text": "把你朋友圈最近的一条动态改成'我是猪'"
+        },
+        {
+          "id": "d-h-24", "difficulty": "hard", "category": "搞笑",
+          "text": "当众用方言模仿新闻联播主持人播报今天聚会"
+        },
+        {
+          "id": "d-h-25", "difficulty": "hard", "category": "搞笑",
+          "text": "把你的微信个性签名改成'全场最丑'保持到游戏结束"
+        },
+        {
+          "id": "d-h-26", "difficulty": "hard", "category": "搞笑",
+          "text": "当场把你手机最近收到的10条消息读出来"
+        },
+        {
+          "id": "d-h-27", "difficulty": "hard", "category": "挑战",
+          "text": "一口气做20个俯卧撑"
+        },
+        {
+          "id": "d-h-28", "difficulty": "hard", "category": "挑战",
+          "text": "当场脱掉外套，只穿背心/短袖坚持到游戏结束"
+        },
+        {
+          "id": "d-h-29", "difficulty": "hard", "category": "挑战",
+          "text": "用脸吃放在地上的饼干（不能用手）"
+        },
+        {
+          "id": "d-h-30", "difficulty": "hard", "category": "挑战",
+          "text": "一口气吃下5颗柠檬片（不能吐出来）"
+        },
+        {
+          "id": "d-h-31", "difficulty": "hard", "category": "挑战",
+          "text": "和在场最强壮的人扳手腕，赢了奖励，输了惩罚"
+        },
+        {
+          "id": "d-h-32", "difficulty": "hard", "category": "挑战",
+          "text": "做平板支撑坚持2分钟"
+        },
+        {
+          "id": "d-h-33", "difficulty": "hard", "category": "挑战",
+          "text": "当场把自己的鞋脱下来闻一下（表演表情）"
+        },
+        {
+          "id": "d-h-34", "difficulty": "hard", "category": "挑战",
+          "text": "光脚在地面上走一圈（如果地面不干净就跳过这个）"
+        }
+      ]
+    }
+  ]
+}
