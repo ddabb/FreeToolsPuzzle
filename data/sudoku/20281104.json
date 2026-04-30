@@ -5,7 +5,7 @@
   "difficulty": "困难",
   "puzzle": [
     [
-      8,
+      0,
       0,
       0,
       0,
@@ -104,5 +104,5 @@
       0
     ]
   ],
-  "emptyCells": 55
+  "emptyCells": 56
 }
