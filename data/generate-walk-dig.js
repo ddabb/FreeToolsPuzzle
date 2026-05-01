@@ -96,6 +96,9 @@ function warnsdorffWalk(rows, cols, start) {
     shuffle(candidates);
     
     current = candidates[0];
+
+    if (visited[current]) break;
+
     visited[current] = 1;
     path.push(current);
   }
