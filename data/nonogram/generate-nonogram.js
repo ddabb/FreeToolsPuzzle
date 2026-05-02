@@ -11,8 +11,8 @@ const path = require('path');
 
 const CONFIG = {
   easy:   { size: 6,  count: 1000, fillRate: 0.55 },
-  medium: { size: 8,  count: 1000, fillRate: 0.50 },
-  hard:   { size: 10, count: 1000, fillRate: 0.45 }
+  medium: { size: 8,  count: 1000, fillRate: 0.55 },
+  hard:   { size: 10, count: 1000, fillRate: 0.50 }
 };
 
 const OUT_DIR = path.join(__dirname);
@@ -67,7 +67,7 @@ function generatePuzzle(size, fillRate, id) {
       }
     }
     const ratio = fillCount / (size * size);
-    if (ratio < 0.3 || ratio > 0.7) continue;
+    if (ratio < 0.4 || ratio > 0.7) continue;
     
     // 计算提示
     const rowHints = [];
