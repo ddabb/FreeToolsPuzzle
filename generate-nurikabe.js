@@ -1,16 +1,10 @@
-/**
- * 数墙 (Nurikabe) 生成器
- * ============================
- * 生成包含 solution 的完整题目数据
- */
-
 const fs = require('fs');
 const path = require('path');
 
 const DIFFICULTIES = {
-  easy: { size: 5, count: 1000 },
-  medium: { size: 7, count: 1000 },
-  hard: { size: 10, count: 1000 }
+  easy: { size: 5, count: 1000, minRegions: 3 },
+  medium: { size: 7, count: 1000, minRegions: 4 },
+  hard: { size: 10, count: 1000, minRegions: 5 }
 };
 
 const OUTPUT_DIR = path.join(__dirname, 'data', 'nurikabe');
@@ -54,7 +48,8 @@ function getWhiteRegions(grid) {
 
           const dirs = [[-1, 0], [1, 0], [0, -1], [0, 1]];
           for (const [dr, dc] of dirs) {
-            const nr = cr + dr, nc = cc + dc;
+            const nr = cr + dr;
+            const nc = cc + dc;
             if (nr >= 0 && nr < size && nc >= 0 && nc < size &&
                 !visited[nr][nc] && grid[nr][nc] === CELL_WHITE) {
               visited[nr][nc] = true;
@@ -88,7 +83,8 @@ function has2x2Black(grid) {
 
 function areBlackCellsConnected(grid) {
   const size = grid.length;
-  let startR = -1, startC = -1;
+  let startR = -1;
+  let startC = -1;
 
   for (let r = 0; r < size; r++) {
     for (let c = 0; c < size; c++) {
@@ -117,7 +113,8 @@ function areBlackCellsConnected(grid) {
 
     const dirs = [[-1, 0], [1, 0], [0, -1], [0, 1]];
     for (const [dr, dc] of dirs) {
-      const nr = cr + dr, nc = cc + dc;
+      const nr = cr + dr;
+      const nc = cc + dc;
       if (nr >= 0 && nr < size && nc >= 0 && nc < size && !visited[nr][nc]) {
         queue.push([nr, nc]);
       }
@@ -146,8 +143,30 @@ function isValidSolution(grid) {
   return true;
 }
 
-function generateSolution(size) {
-  const maxAttempts = 500;
+function getRegionCenter(region) {
+  let sumR = 0;
+  let sumC = 0;
+  for (const [r, c] of region) {
+    sumR += r;
+    sumC += c;
+  }
+  const avgR = sumR / region.length;
+  const avgC = sumC / region.length;
+
+  let best = region[0];
+  let bestDist = Infinity;
+  for (const pos of region) {
+    const dist = Math.abs(pos[0] - avgR) + Math.abs(pos[1] - avgC);
+    if (dist < bestDist) {
+      bestDist = dist;
+      best = pos;
+    }
+  }
+  return best;
+}
+
+function generateSolution(size, minRegions) {
+  const maxAttempts = 300;
 
   for (let attempt = 0; attempt < maxAttempts; attempt++) {
     const grid = createEmptyGrid(size);
@@ -160,8 +179,8 @@ function generateSolution(size) {
     shuffle(cells);
 
     let blackCount = 0;
-    const minBlack = Math.floor(size * size * 0.15);
-    const maxBlack = Math.floor(size * size * 0.35);
+    const minBlack = Math.floor(size * size * 0.1);
+    const maxBlack = Math.floor(size * size * 0.45);
 
     for (const [r, c] of cells) {
       if (blackCount >= maxBlack) break;
@@ -176,7 +195,10 @@ function generateSolution(size) {
       }
     }
 
-    if (isValidSolution(grid) && blackCount >= minBlack && blackCount <= maxBlack) {
+    const regions = getWhiteRegions(grid);
+    if (isValidSolution(grid) && 
+        blackCount >= minBlack &&
+        regions.length >= minRegions) {
       return grid;
     }
   }
@@ -191,9 +213,9 @@ function gridToNumbers(grid) {
 
   for (const region of regions) {
     const num = region.length;
-    if (num >= 2 && num <= size * size) {
-      const [r, c] = region[0];
-      numbers[r][c] = num;
+    if (num >= 2) {
+      const center = getRegionCenter(region);
+      numbers[center[0]][center[1]] = num;
     }
   }
 
@@ -230,14 +252,32 @@ function verifyPuzzle(grid, numbers) {
   return isValidSolution(grid);
 }
 
-function generatePuzzle(size) {
-  const solution = generateSolution(size);
-  if (!solution) return null;
+function generatePuzzle(size, minRegions) {
+  const maxPuzzleAttempts = 50;
+  
+  for (let pa = 0; pa < maxPuzzleAttempts; pa++) {
+    const solution = generateSolution(size, minRegions);
+    if (!solution) continue;
 
-  const numbers = gridToNumbers(solution);
-  if (!verifyPuzzle(solution, numbers)) return null;
+    const numbers = gridToNumbers(solution);
+    if (!verifyPuzzle(solution, numbers)) continue;
 
-  return { grid: numbers, solution };
+    return { grid: numbers, solution };
+  }
+  
+  return null;
+}
+
+function getNextId(difficulty, count) {
+  for (let i = 1; i <= count; i++) {
+    const fileId = String(i).padStart(4, '0');
+    const filename = `${difficulty}-${fileId}.json`;
+    const filepath = path.join(OUTPUT_DIR, filename);
+    if (!fs.existsSync(filepath)) {
+      return i;
+    }
+  }
+  return count + 1;
 }
 
 function generateAll() {
@@ -247,14 +287,23 @@ function generateAll() {
   let total = 0;
 
   for (const [difficulty, config] of Object.entries(DIFFICULTIES)) {
-    console.log(`生成 ${difficulty} (${config.size}x${config.size}, ${config.count}题)...`);
+    const existingFiles = fs.readdirSync(OUTPUT_DIR).filter(f => f.startsWith(difficulty));
+    const generated = existingFiles.length;
+    const remaining = config.count - generated;
+    
+    if (remaining <= 0) {
+      console.log(`${difficulty} 已完成 ${config.count} 道题目\n`);
+      total += config.count;
+      continue;
+    }
+
+    console.log(`生成 ${difficulty} (${config.size}x${config.size}): 已有 ${generated}/${config.count}, 还需 ${remaining} 道`);
 
     let success = 0;
-    let fail = 0;
     const startTime = Date.now();
 
-    for (let i = 1; i <= config.count; i++) {
-      const puzzle = generatePuzzle(config.size);
+    for (let i = getNextId(difficulty, config.count); i <= config.count; i++) {
+      const puzzle = generatePuzzle(config.size, config.minRegions);
 
       if (puzzle) {
         const fileId = String(i).padStart(4, '0');
@@ -263,7 +312,7 @@ function generateAll() {
 
         const data = {
           id: i,
-          difficulty,
+          difficulty: difficulty,
           size: config.size,
           grid: puzzle.grid,
           solution: puzzle.solution,
@@ -272,19 +321,17 @@ function generateAll() {
 
         fs.writeFileSync(filepath, JSON.stringify(data));
         success++;
-      } else {
-        fail++;
       }
 
-      if (i % 100 === 0) {
+      if ((generated + success) % 100 === 0) {
         const elapsed = ((Date.now() - startTime) / 1000).toFixed(1);
-        console.log(`  ${i}/${config.count} (${elapsed}s)`);
+        console.log(`  进度: ${generated + success}/${config.count} (${elapsed}s)`);
       }
     }
 
     const time = ((Date.now() - startTime) / 1000).toFixed(2);
-    console.log(`  完成! 成功: ${success}, 失败: ${fail}, 耗时: ${time}s\n`);
-    total += success;
+    console.log(`  完成! 成功: ${success}, 耗时: ${time}s\n`);
+    total += generated + success;
   }
 
   console.log(`总计生成 ${total} 道题目`);
