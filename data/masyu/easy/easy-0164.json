@@ -10,19 +10,34 @@
       "type": "black"
     },
     {
-      "r": 2,
+      "r": 1,
       "c": 3,
-      "type": "black"
-    },
-    {
-      "r": 2,
-      "c": 4,
       "type": "black"
     },
     {
       "r": 1,
+      "c": 6,
+      "type": "white"
+    },
+    {
+      "r": 6,
+      "c": 2,
+      "type": "white"
+    },
+    {
+      "r": 0,
+      "c": 5,
+      "type": "white"
+    },
+    {
+      "r": 6,
+      "c": 1,
+      "type": "white"
+    },
+    {
+      "r": 6,
       "c": 3,
-      "type": "black"
+      "type": "white"
     }
   ],
   "path": [
@@ -43,12 +58,16 @@
     6,
     13,
     20,
+    26,
+    19,
     27,
     34,
     41,
     48,
     47,
     39,
+    33,
+    32,
     40,
     46,
     45,
@@ -57,13 +76,21 @@
     42,
     35,
     29,
+    37,
+    31,
+    38,
+    30,
     36,
     28,
     21,
+    15,
+    23,
+    16,
+    22,
     14,
     7
   ],
-  "pearlCount": 4,
-  "blackCount": 4,
-  "whiteCount": 0
+  "pearlCount": 7,
+  "blackCount": 2,
+  "whiteCount": 5
 }
