@@ -34,10 +34,27 @@ function generatePath(dotSize) {
   const visited = new Set();
   const path = [];
   
-  // 从左上角开始
-  let r = 0, c = 0;
-  path.push([r, c]);
-  visited.add(`${r},${c}`);
+  // 从外圈矩形开始（必须形成闭合回路）
+  // 顶边: (0,0) -> (0,1) -> ... -> (0, dotSize-1)
+  for (let c = 0; c < dotSize; c++) {
+    path.push([0, c]);
+    visited.add(`0,${c}`);
+  }
+  // 右边: (1, dotSize-1) -> ... -> (dotSize-1, dotSize-1)
+  for (let r = 1; r < dotSize; r++) {
+    path.push([r, dotSize - 1]);
+    visited.add(`${r},${dotSize - 1}`);
+  }
+  // 底边: (dotSize-1, dotSize-2) -> ... -> (dotSize-1, 0)
+  for (let c = dotSize - 2; c >= 0; c--) {
+    path.push([dotSize - 1, c]);
+    visited.add(`${dotSize - 1},${c}`);
+  }
+  // 左边: (dotSize-2, 0) -> ... -> (1, 0)
+  for (let r = dotSize - 2; r >= 1; r--) {
+    path.push([r, 0]);
+    visited.add(`${r},0`);
+  }
   
   // 增长法：每次选一个可扩展的边，向外凸出
   while (path.length < dotSize * dotSize - 2) {
@@ -84,8 +101,10 @@ function generatePath(dotSize) {
     const expand = expandable[Math.floor(Math.random() * expandable.length)];
     
     // 在路径中插入新点
+    // newPoints[0] 紧接 curr，newPoints[1] 紧接 next
+    // splice 参数按插入位置从左到右，所以先 [0] 再 [1]
     const insertIndex = expand.index + 1;
-    path.splice(insertIndex, 0, expand.newPoints[1], expand.newPoints[0]);
+    path.splice(insertIndex, 0, expand.newPoints[0], expand.newPoints[1]);
     visited.add(`${expand.newPoints[0][0]},${expand.newPoints[0][1]}`);
     visited.add(`${expand.newPoints[1][0]},${expand.newPoints[1][1]}`);
   }
@@ -182,8 +201,41 @@ function placePearls(path, dotSize, config) {
     if (isTurn) {
       candidates.push({ r: curr[0], c: curr[1], type: 'black' });
     } else {
-      // 检查白珠的延伸条件
-      candidates.push({ r: curr[0], c: curr[1], type: 'white' });
+      // 白珠：直行，且前后各至少延伸1格（共3格直线）
+      // 向前检查
+      let forwardCount = 0;
+      let checkIdx = i;
+      let checkDir = { dr: -dir1.dr, dc: -dir1.dc };
+      while (true) {
+        const nextIdx = (checkIdx + 1) % path.length;
+        const nextPoint = path[nextIdx];
+        const newDir = { dr: nextPoint[0] - path[checkIdx][0], dc: nextPoint[1] - path[checkIdx][1] };
+        if (newDir.dr === checkDir.dr && newDir.dc === checkDir.dc) {
+          forwardCount++;
+          checkIdx = nextIdx;
+        } else break;
+        if (forwardCount >= 2) break;
+      }
+      
+      // 向后检查
+      let backwardCount = 0;
+      checkIdx = i;
+      checkDir = { dr: -dir2.dr, dc: -dir2.dc };
+      while (true) {
+        const prevIdx = (checkIdx - 1 + path.length) % path.length;
+        const prevPoint = path[prevIdx];
+        const newDir = { dr: prevPoint[0] - path[checkIdx][0], dc: prevPoint[1] - path[checkIdx][1] };
+        if (newDir.dr === checkDir.dr && newDir.dc === checkDir.dc) {
+          backwardCount++;
+          checkIdx = prevIdx;
+        } else break;
+        if (backwardCount >= 2) break;
+      }
+      
+      // 白珠需要前后各至少1格延伸（即直线段至少3格）
+      if (forwardCount >= 1 && backwardCount >= 1) {
+        candidates.push({ r: curr[0], c: curr[1], type: 'white' });
+      }
     }
   }
   
