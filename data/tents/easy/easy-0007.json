@@ -1,1 +1,1 @@
-{"id":7,"difficulty":"easy","size":6,"grid":[[0,0,0,0,0,0],[0,0,0,0,0,0],[1,0,0,0,0,0],[1,1,1,1,0,0],[0,0,0,1,0,0],[1,0,1,0,0,0]],"tents":{"1,0":true,"4,0":true,"2,1":true,"4,2":true,"2,3":true,"4,4":true,"5,1":true,"5,3":true},"treeCount":8,"unique":true,"seed":690851}
+{"grid":[[0,0,0,0,1,0],[0,0,1,0,0,0],[0,0,0,0,0,0],[0,1,0,0,0,0],[0,0,0,0,0,0],[0,0,0,0,1,0]],"size":6,"tents":{"1,4":true,"4,4":true,"4,1":true,"0,2":true},"treeCount":4,"rowCounts":[1,1,0,0,2,0],"colCounts":[0,1,1,0,2,0],"unique":true,"id":"easy-0007","difficulty":"easy"}
