@@ -5,44 +5,39 @@
   "dotSize": 7,
   "pearls": [
     {
+      "r": 2,
+      "c": 4,
+      "type": "black"
+    },
+    {
       "r": 0,
       "c": 2,
       "type": "black"
     },
     {
-      "r": 3,
+      "r": 0,
+      "c": 6,
+      "type": "black"
+    },
+    {
+      "r": 4,
+      "c": 6,
+      "type": "black"
+    },
+    {
+      "r": 6,
+      "c": 4,
+      "type": "black"
+    },
+    {
+      "r": 2,
+      "c": 5,
+      "type": "black"
+    },
+    {
+      "r": 0,
       "c": 0,
       "type": "black"
-    },
-    {
-      "r": 3,
-      "c": 3,
-      "type": "black"
-    },
-    {
-      "r": 4,
-      "c": 3,
-      "type": "black"
-    },
-    {
-      "r": 1,
-      "c": 2,
-      "type": "black"
-    },
-    {
-      "r": 4,
-      "c": 2,
-      "type": "black"
-    },
-    {
-      "r": 5,
-      "c": 4,
-      "type": "black"
-    },
-    {
-      "r": 4,
-      "c": 4,
-      "type": "white"
     }
   ],
   "path": [
@@ -65,10 +60,6 @@
     20,
     27,
     26,
-    25,
-    24,
-    31,
-    32,
     33,
     34,
     41,
@@ -85,17 +76,21 @@
     42,
     35,
     28,
-    21,
-    22,
     29,
     30,
+    31,
+    32,
+    25,
+    24,
     23,
     16,
     15,
+    22,
+    21,
     14,
     7
   ],
-  "pearlCount": 8,
+  "pearlCount": 7,
   "blackCount": 7,
-  "whiteCount": 1
+  "whiteCount": 0
 }
