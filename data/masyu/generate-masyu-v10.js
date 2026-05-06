@@ -232,8 +232,9 @@ function placePearls(path, dotSize, config) {
         if (backwardCount >= 2) break;
       }
       
-      // 白珠需要前后各至少1格延伸（即直线段至少3格）
-      if (forwardCount >= 1 && backwardCount >= 1) {
+      // 白珠规则：必须直行通过，且前后各至少延伸2格（不含珍珠本身）
+      // 即珍珠在直线段中间，前后各至少2格延伸
+      if (forwardCount >= 2 && backwardCount >= 2) {
         candidates.push({ r: curr[0], c: curr[1], type: 'white' });
       }
     }
