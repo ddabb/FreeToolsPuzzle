@@ -12,11 +12,11 @@
 const fs = require('fs');
 const path = require('path');
 
-// 配置
+// 配置 - 提高珍珠密度确保唯一解
 const CONFIG = {
-  easy: { size: 6, pearlDensity: 0.15, blackRatio: 0.4 },
-  medium: { size: 8, pearlDensity: 0.18, blackRatio: 0.45 },
-  hard: { size: 10, pearlDensity: 0.20, blackRatio: 0.5 }
+  easy: { size: 6, pearlDensity: 0.40, blackRatio: 0.4 },
+  medium: { size: 8, pearlDensity: 0.45, blackRatio: 0.45 },
+  hard: { size: 10, pearlDensity: 0.50, blackRatio: 0.5 }
 };
 
 // 方向向量
@@ -136,7 +136,41 @@ function checkPearlConstraint(path, pearlR, pearlC, isBlack) {
   
   if (isBlack) {
     // 黑珠：必须转弯（前后方向垂直）
-    return dir1.dr * dir2.dr + dir1.dc * dir2.dc === 0;
+    const isTurn = dir1.dr * dir2.dr + dir1.dc * dir2.dc === 0;
+    if (!isTurn) return false;
+    
+    // 黑珠还要检查至少延伸1格
+    // 向前检查
+    let forwardCount = 0;
+    let checkIdx = idx;
+    let checkDir = dir2;
+    while (true) {
+      const nextIdx = (checkIdx + 1) % path.length;
+      const nextPoint = path[nextIdx];
+      const newDir = { dr: nextPoint[0] - path[checkIdx][0], dc: nextPoint[1] - path[checkIdx][1] };
+      if (newDir.dr === checkDir.dr && newDir.dc === checkDir.dc) {
+        forwardCount++;
+        checkIdx = nextIdx;
+      } else break;
+      if (forwardCount >= 1) break;
+    }
+    
+    // 向后检查
+    let backwardCount = 0;
+    checkIdx = idx;
+    checkDir = dir1;
+    while (true) {
+      const prevIdx = (checkIdx - 1 + path.length) % path.length;
+      const prevPoint = path[prevIdx];
+      const newDir = { dr: path[checkIdx][0] - prevPoint[0], dc: path[checkIdx][1] - prevPoint[1] };
+      if (newDir.dr === checkDir.dr && newDir.dc === checkDir.dc) {
+        backwardCount++;
+        checkIdx = prevIdx;
+      } else break;
+      if (backwardCount >= 1) break;
+    }
+    
+    return forwardCount >= 1 && backwardCount >= 1;
   } else {
     // 白珠：必须直行（前后方向相反，即直行）
     const isStraight = (dir1.dr + dir2.dr === 0) && (dir1.dc + dir2.dc === 0);
@@ -173,7 +207,7 @@ function checkPearlConstraint(path, pearlR, pearlC, isBlack) {
       if (backwardCount >= 2) break;
     }
     
-    return forwardCount >= 1 && backwardCount >= 1;
+    return forwardCount >= 2 && backwardCount >= 2;
   }
 }
 
@@ -257,12 +291,18 @@ function placePearls(path, dotSize, config) {
 }
 
 /**
- * 验证解的唯一性（简化版）
+ * 验证解的唯一性（完整版）
  */
 function hasUniqueSolution(path, pearls, dotSize) {
-  // TODO: 实现完整的唯一解验证
-  // 这里先用启发式：珍珠数量足够多，解就唯一
-  return pearls.length >= Math.floor(dotSize * 0.8);
+  // 使用完整求解器验证
+  try {
+    const { countSolutions } = require('./solve-masyu-unique.js');
+    const count = countSolutions(pearls, dotSize, 2);
+    return count === 1;
+  } catch (err) {
+    console.error('求解器错误:', err.message);
+    return false;
+  }
 }
 
 /**
