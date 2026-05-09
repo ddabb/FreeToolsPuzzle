@@ -160,10 +160,11 @@ function validateAnswer(puzzle) {
     const boxIdx = moveStr.length > 1 ? parseInt(moveStr.substring(1)) - 1 : -1;
 
     let dx = 0, dy = 0;
-    if (dir === 'R') dx = 1;
-    else if (dir === 'L') dx = -1;
-    else if (dir === 'D') dy = 1;
-    else if (dir === 'U') dy = -1;
+    // 方向解码：D=下(dx=1), U=上(dx=-1), R=右(dy=1), L=左(dy=-1)
+    if (dir === 'D') dx = 1;
+    else if (dir === 'U') dx = -1;
+    else if (dir === 'R') dy = 1;
+    else if (dir === 'L') dy = -1;
     else return false;
 
     const nx = player[0] + dx;
@@ -252,7 +253,9 @@ function generatePuzzle(seed) {
   }
 
   puzzle.answer = solution.map(m => {
-    const dirName = m.dx === 1 ? 'R' : m.dx === -1 ? 'L' : m.dy === 1 ? 'D' : 'U';
+    // 方向编码：dx对应行(上下), dy对应列(左右)
+    // dx=1→下(D), dx=-1→上(U), dy=1→右(R), dy=-1→左(L)
+    const dirName = m.dx === 1 ? 'D' : m.dx === -1 ? 'U' : m.dy === 1 ? 'R' : 'L';
     return m.pushBox >= 0 ? dirName + (m.pushBox + 1) : dirName;
   });
 

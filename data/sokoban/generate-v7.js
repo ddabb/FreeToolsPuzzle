@@ -178,7 +178,8 @@ while (counts.easy < TARGET || counts.medium < TARGET || counts.hard < TARGET) {
   const solution = solveSokoban(puzzle, 2000);
   if (solution) {
     puzzle.answer = solution.map(m => {
-      const dirName = m.dx === 1 ? 'R' : m.dx === -1 ? 'L' : m.dy === 1 ? 'D' : 'U';
+      // 统一方向编码：D=下(dx=1), U=上(dx=-1), R=右(dy=1), L=左(dy=-1)
+      const dirName = m.dx === 1 ? 'D' : m.dx === -1 ? 'U' : m.dy === 1 ? 'R' : 'L';
       return m.pushBox >= 0 ? dirName + (m.pushBox + 1) : dirName;
     });
   }
