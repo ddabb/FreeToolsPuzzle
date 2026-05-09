@@ -143,16 +143,16 @@
   "xsb": "@  ###\n     #\n#  # #\n###  #\n#. $ #\n#  ###",
   "solutionSteps": 2,
   "answer": [
-    "D",
-    "D",
     "R",
-    "D",
+    "R",
     "D",
     "R",
     "R",
-    "R",
-    "U1",
-    "U1"
+    "D",
+    "D",
+    "D",
+    "L1",
+    "L1"
   ],
   "actualSteps": 10,
   "pushCount": 2,

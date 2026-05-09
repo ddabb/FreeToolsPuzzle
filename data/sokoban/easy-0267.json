@@ -182,18 +182,18 @@
   "xsb": "@  ####\n $   ##\n#     #\n####.  \n#      \n#  #  #\n#######",
   "solutionSteps": 5,
   "answer": [
-    "R",
-    "D1",
-    "L",
     "D",
     "R1",
     "U",
     "R",
     "D1",
-    "D1",
     "L",
     "D",
-    "R1"
+    "R1",
+    "R1",
+    "U",
+    "R",
+    "D1"
   ],
   "actualSteps": 12,
   "pushCount": 5,

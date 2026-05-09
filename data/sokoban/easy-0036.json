@@ -154,16 +154,16 @@
   "xsb": "##   ##\n@$    #\n   #  #\n ### ##\n      #\n      #\n   #. #",
   "solutionSteps": 8,
   "answer": [
+    "R1",
+    "R1",
+    "R1",
+    "U",
+    "R",
     "D1",
     "D1",
     "D1",
-    "L",
-    "D",
-    "R1",
-    "R1",
-    "R1",
-    "R1",
-    "R1"
+    "D1",
+    "D1"
   ],
   "actualSteps": 10,
   "pushCount": 8,

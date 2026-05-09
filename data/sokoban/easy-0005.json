@@ -170,16 +170,16 @@
   "xsb": "###  ##\n@ #    \n $ #.  \n      #\n#     #\n#####  \n#####  ",
   "solutionSteps": 5,
   "answer": [
+    "R",
+    "D1",
+    "L",
     "D",
     "R1",
-    "U",
-    "R",
-    "D1",
-    "D1",
-    "D1",
-    "R",
+    "R1",
+    "R1",
     "D",
-    "L1"
+    "R",
+    "U1"
   ],
   "actualSteps": 10,
   "pushCount": 5,

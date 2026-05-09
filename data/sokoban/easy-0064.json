@@ -127,16 +127,16 @@
   "xsb": "###   \n###   \n@     \n.   ##\n #$ ##\n    ##",
   "solutionSteps": 3,
   "answer": [
-    "R",
-    "R",
-    "R",
     "D",
     "D",
-    "L1",
     "D",
-    "L",
+    "R",
+    "R",
     "U1",
-    "U1"
+    "R",
+    "U",
+    "L1",
+    "L1"
   ],
   "actualSteps": 10,
   "pushCount": 3,

@@ -131,17 +131,17 @@
   "xsb": "@ ####\n   ###\n      \n## #$ \n##    \n##   .",
   "solutionSteps": 3,
   "answer": [
-    "D",
     "R",
     "D",
     "R",
     "D",
-    "D",
-    "R1",
-    "R1",
-    "U",
     "R",
-    "D1"
+    "R",
+    "D1",
+    "D1",
+    "L",
+    "D",
+    "R1"
   ],
   "actualSteps": 11,
   "pushCount": 3,
