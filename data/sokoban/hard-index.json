@@ -1,25 +1,6 @@
 {
   "total": 1000,
   "minSteps": 35,
-  "generated": "2026-05-09T06:03:01.752Z",
-  "statistics": {
-    "totalAttempts": 107,
-    "noSolutionCount": 103,
-    "timeoutCount": 6,
-    "duplicateCount": 0,
-    "elapsedSeconds": 6,
-    "avgSteps": 43.563,
-    "minSteps": 36,
-    "maxSteps": 55,
-    "p25": 40,
-    "p50": 43,
-    "p75": 47,
-    "stepDistribution": {
-      "38": 1,
-      "39": 1,
-      "40": 1,
-      "49": 1
-    },
-    "existingLoaded": 996
-  }
+  "generated": "2026-05-09T10:05:09.074Z",
+  "note": "4 missing puzzles regenerated"
 }
