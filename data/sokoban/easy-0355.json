@@ -256,20 +256,20 @@
     ]
   ],
   "xsb": "@  ######\n     ##  \n  #  ##  \n   # ##  \n   #     \n## ###  #\n#     #  \n#  #*$#  \n#### .#  ",
-  "solutionSteps": 1,
+  "solutionSteps": 12,
   "answer": [
-    "R",
     "D",
-    "D",
-    "D",
-    "R",
     "D",
     "D",
     "D",
     "R",
     "R",
+    "D",
+    "D",
     "R",
-    "D2"
+    "R",
+    "R",
+    "D"
   ],
   "actualSteps": 12,
   "pushCount": 1,

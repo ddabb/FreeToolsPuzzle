@@ -228,22 +228,20 @@
     ]
   ],
   "xsb": "###    ##\n@ # #   #\n  #     #\n#        \n## # #   \n#     # #\n.* #    #\n$#      #\n     #  #",
-  "solutionSteps": 1,
+  "solutionSteps": 10,
   "answer": [
-    "R",
-    "D",
-    "D",
-    "R",
-    "D",
-    "D",
-    "D",
-    "D",
     "D",
     "L",
-    "L",
-    "U2"
+    "D",
+    "D",
+    "D",
+    "D",
+    "D",
+    "D",
+    "R",
+    "U"
   ],
-  "actualSteps": 12,
+  "actualSteps": 10,
   "pushCount": 1,
   "difficulty": "easy"
 }

@@ -221,25 +221,24 @@
     ]
   ],
   "xsb": "..$     \n    #   \n#  ###* \n@$#   ##\n    #   \n   #### \n######  \n######  ",
-  "solutionSteps": 17,
+  "solutionSteps": 14,
   "answer": [
     "D",
     "R",
-    "U3",
-    "U3",
-    "R",
+    "U",
+    "U",
     "U",
     "R",
     "U",
-    "L1",
-    "L1",
     "R",
-    "D",
-    "D",
+    "U",
     "L",
-    "U3"
+    "L",
+    "U",
+    "L",
+    "D"
   ],
-  "actualSteps": 15,
+  "actualSteps": 14,
   "pushCount": 5,
   "difficulty": "easy"
 }

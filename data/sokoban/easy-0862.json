@@ -205,27 +205,25 @@
     ]
   ],
   "xsb": "#####   \n # ###  \n        \n      ##\n  ##    \n######$ \n  *@#.  \n  # *   ",
-  "solutionSteps": 6,
+  "solutionSteps": 15,
   "answer": [
     "D",
-    "R3",
-    "R3",
+    "D",
+    "R",
+    "R",
+    "U",
     "U",
     "R",
     "R",
     "U",
     "U",
     "L",
-    "D1",
+    "D",
     "R",
     "D",
-    "L1",
-    "R",
-    "D",
-    "L3",
-    "L3"
+    "L"
   ],
-  "actualSteps": 17,
+  "actualSteps": 15,
   "pushCount": 6,
   "difficulty": "easy"
 }

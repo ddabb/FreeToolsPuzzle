@@ -160,20 +160,20 @@
     ]
   ],
   "xsb": "#####  \n  ##  #\n  #@ . \n  # $  \n  ##   \n   ### \n# .  $ ",
-  "solutionSteps": 5,
+  "solutionSteps": 12,
   "answer": [
     "D",
-    "R1",
-    "D",
-    "R",
-    "U1",
     "R",
     "D",
+    "R",
+    "U",
+    "D",
+    "R",
     "D",
     "D",
-    "L2",
-    "L2",
-    "L2"
+    "L",
+    "L",
+    "L"
   ],
   "actualSteps": 12,
   "pushCount": 5,

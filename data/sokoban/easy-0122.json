@@ -236,19 +236,19 @@
     ]
   ],
   "xsb": "@ ## *#  \n $ #     \n#  ## # #\n#  #  #  \n   #  ## \n  ##### *\n        #\n   .     \n  #  ##  ",
-  "solutionSteps": 8,
+  "solutionSteps": 11,
   "answer": [
     "R",
-    "D2",
-    "D2",
-    "D2",
-    "D2",
-    "D2",
-    "D2",
+    "D",
+    "D",
+    "D",
+    "D",
+    "D",
+    "D",
     "L",
     "D",
-    "R2",
-    "R2"
+    "R",
+    "R"
   ],
   "actualSteps": 11,
   "pushCount": 8,

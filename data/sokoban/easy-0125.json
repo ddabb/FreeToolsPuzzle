@@ -201,19 +201,19 @@
     ]
   ],
   "xsb": "##   ###\n#     $@\n#   .##$\n  ###  .\n  ###   \n #### ##\n        \n  #     ",
-  "solutionSteps": 6,
+  "solutionSteps": 11,
   "answer": [
-    "D2",
-    "U",
-    "L1",
-    "L1",
-    "L1",
+    "D",
     "U",
     "L",
-    "D1",
+    "L",
+    "L",
+    "U",
     "L",
     "D",
-    "R1"
+    "L",
+    "D",
+    "R"
   ],
   "actualSteps": 11,
   "pushCount": 6,

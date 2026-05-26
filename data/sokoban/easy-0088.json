@@ -268,18 +268,18 @@
     ]
   ],
   "xsb": "##       \n  ##   ##\n  #### ##\n  ####   \n   #  #  \n#    *###\n#### #  #\n# .    $ \n# .$ ##@ ",
-  "solutionSteps": 6,
+  "solutionSteps": 10,
   "answer": [
     "R",
     "U",
-    "L2",
-    "L2",
-    "L2",
-    "L2",
-    "L2",
+    "L",
+    "L",
+    "L",
+    "L",
+    "L",
     "R",
     "D",
-    "L3"
+    "L"
   ],
   "actualSteps": 10,
   "pushCount": 6,

@@ -276,26 +276,24 @@
     ]
   ],
   "xsb": "#######  \n######   \n######   \n@ #### ##\n $       \n# #      \n  .####  \n  $  .#  \n  #   ###",
-  "solutionSteps": 8,
+  "solutionSteps": 14,
   "answer": [
     "R",
-    "D1",
-    "D1",
-    "D1",
+    "D",
+    "D",
+    "U",
+    "L",
     "L",
     "D",
     "D",
     "R",
-    "U1",
-    "L",
-    "U",
-    "R1",
+    "R",
     "D",
-    "R2",
-    "R2",
-    "R2"
+    "R",
+    "R",
+    "R"
   ],
-  "actualSteps": 16,
+  "actualSteps": 14,
   "pushCount": 8,
   "difficulty": "easy"
 }

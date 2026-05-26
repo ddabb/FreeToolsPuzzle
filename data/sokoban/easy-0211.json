@@ -209,7 +209,7 @@
     ]
   ],
   "xsb": "####    \n  #   ##\n###   * \n#  ## # \n@  ## # \n  ###.# \n # $    \n   #   #",
-  "solutionSteps": 7,
+  "solutionSteps": 11,
   "answer": [
     "D",
     "D",
@@ -217,11 +217,11 @@
     "R",
     "R",
     "U",
-    "R2",
-    "R2",
+    "R",
+    "R",
     "D",
     "R",
-    "U2"
+    "U"
   ],
   "actualSteps": 11,
   "pushCount": 3,
