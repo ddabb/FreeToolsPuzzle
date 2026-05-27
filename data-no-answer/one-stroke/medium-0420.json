@@ -1,0 +1,11 @@
+﻿{
+    "size":  8,
+    "holes":  [
+                  16,
+                  36,
+                  42,
+                  56
+              ],
+    "difficulty":  "medium",
+    "id":  420
+}

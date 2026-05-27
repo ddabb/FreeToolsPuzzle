@@ -1,0 +1,14 @@
+[
+  {
+    "file": "invalid-easy.json"
+  },
+  {
+    "file": "invalid-hard.json"
+  },
+  {
+    "file": "invalid-list.json"
+  },
+  {
+    "file": "invalid-medium.json"
+  }
+]

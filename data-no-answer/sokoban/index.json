@@ -1,0 +1,26 @@
+﻿{
+    "game":  "sokoban",
+    "version":  "v4",
+    "generator":  "sokoban-generator@1.1.5 + solver.js verification",
+    "totalLevels":  94,
+    "difficulties":  {
+                         "easy":  {
+                                      "count":  48,
+                                      "grid":  "6x6",
+                                      "boxes":  "1-2"
+                                  },
+                         "medium":  {
+                                        "count":  38,
+                                        "grid":  "8x8",
+                                        "boxes":  "2-3"
+                                    },
+                         "hard":  {
+                                      "count":  8,
+                                      "grid":  "10x10",
+                                      "boxes":  "3-4"
+                                  }
+                     },
+    "generatedAt":  "2026-05-08T00:47:50.982Z",
+    "verifiedAt":  "2026-05-08T01:58:02.930Z",
+    "note":  "17 invalid puzzles removed (unsolvable/timeout). All 94 remaining puzzles verified solvable."
+}
